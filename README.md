@@ -1,1 +1,1 @@
-## [resume_Deutsch](https://sl101.github.io/resume_de/VIACHESLAV_ZHEVAHA_CV/)
+## [open resume](https://sl101.github.io/resume_de/)
