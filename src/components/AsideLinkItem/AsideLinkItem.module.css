@@ -1,0 +1,45 @@
+.aside__link {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	color: var(--black-color);
+	text-decoration: none;
+	outline: none;
+}
+
+.aside__link.code {
+	flex-direction: column;
+	align-items: start;
+}
+
+.aside__link i {
+	transition: color var(--transition);
+}
+
+.aside__link.code img {
+	width: 150px;
+}
+
+.aside__link span {
+	white-space: nowrap;
+	padding-bottom: 2px;
+	border-bottom: 1px solid var(--black-color);
+	transition: border-color var(--transition), color var(--transition);
+}
+
+.aside__link:focus span {
+	color: var(--green-color);
+}
+
+.aside__link:focus i {
+	color: var(--green-color);
+}
+
+
+.aside__link:hover span {
+	border-color: var(--green-color);
+}
+
+.aside__link:hover i {
+	color: var(--green-color);
+}
