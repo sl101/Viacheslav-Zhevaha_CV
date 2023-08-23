@@ -16,7 +16,6 @@ function App() {
 				<Aside />
 				<div class="page__wrapper">
 					<Profile />
-					<Skills />
 					<Projects />
 					<Experience />
 				</div>

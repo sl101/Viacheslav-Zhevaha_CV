@@ -9,14 +9,14 @@ export function Experience() {
 					<h3 class="job__title">Freiberuflicher Frontend-Entwickler</h3>
 					<div class="job__info">
 						<h4 class="subtitle">Verschiedene Clients, Remote</h4>
-						<p class="date">Januar 2022 – Heute</p>
+						<p class={s.date}>Januar 2023 – heute</p>
 					</div>
 					<ul class="job__description">
 						<li>
 							Hatte Erfahrung in der Entwicklung von Schnittstellen in HTML/CSS,
 							Javascript. Die Aufgabe bestand darin, ein barrierefreies,
-							adaptives Layout mit modernen Mitteln zu schaffen Technologien —
-							ein Raster, flexible Platzierung von Elementen auf der Seite. Die
+							adaptives Layout mit modernen Mitteln zu schaffen. Technologien:
+							Grid, flexible Platzierung von Elementen auf der Seite. Die
 							Entwicklung erforderte die Interaktion mit anderen Entwicklern und
 							dem Kunden, für den das Versionskontrollsystem Git verwendet
 							wurde.
@@ -31,27 +31,27 @@ export function Experience() {
 							Vienna Insurance Group (Ukrainische Versicherungsgruppe), Kiew,
 							Ukraine
 						</h4>
-						<p class="date">September 2008 – Oktober 2019</p>
+						<p class={s.date}>September 2008 – Oktober 2019</p>
 					</div>
 					<ul class="job__description">
 						<li>
 							Entwicklung einer persönlichen Webanwendung für einen
-							Versicherungsvertreter. ICH Ich habe HTML/CSS zum Schreiben
-							verwendet. Ziel war es, neue Kunden zu gewinnen die
-							Versicherungsprodukte des Unternehmens zu verkaufen.
+							Versicherungsvertreter. Ich habe HTML/CSS zum Schreiben verwendet.
+							Ziel war es, neue Kunden zu gewinnen, die Versicherungsprodukte
+							des Unternehmens zu verkaufen.
 						</li>
 						<li>
 							Zur Förderung erarbeitete ich einen Vorschlag zur Umsetzung einer
-							mobilen Anwendung, die die Dienstleistungen und Produkte darstellt
-							des Unternehmens.
+							mobilen Anwendung, die die Dienstleistungen und Produkte des
+							Unternehmens darstellt.
 						</li>
 						<li>
 							Leitete ein Team von Vertriebsmitarbeitern und führte den Vertrieb
-							erfolgreich durch Ziele für verschiedene Versicherungsprodukte
+							erfolgreich durch Ziele für verschiedene Versicherungsprodukte.
 						</li>
 						<li>
 							Entwicklung und Umsetzung von Marketingstrategien zur Steigerung
-							der Marke Sensibilisierung und Steigerung des Umsatzwachstums
+							der Marke Sensibilisierung und Steigerung des Umsatzwachstums.
 						</li>
 					</ul>
 				</li>

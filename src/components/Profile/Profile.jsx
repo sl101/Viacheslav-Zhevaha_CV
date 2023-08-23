@@ -6,15 +6,9 @@ export function Profile() {
 				<p>
 					Ergebnisorientierter Frontend-Entwickler mit starkem Fokus auf
 					Crafting Optisch ansprechende und benutzerfreundliche Weboberflächen.
-					Talentiert in Designkonzepte in funktionalen Code übersetzen,
-					optimieren Leistung und Gewährleistung der
-					Cross-Browser-Kompatibilität. Verantwortlich, Detailorientiert und
-					pünktlich, mit einer Leidenschaft für Innovation
-					Frontend-Technologien. Gedeiht in kollaborativen Teamumgebungen, Wir
-					arbeiten mit Fachleuten zusammen, um den Projekterfolg zu erzielen.
-					Bereit für Meine Fähigkeiten und mein Fachwissen in ein dynamisches
-					Unternehmen einbringen Entwicklung einer visuell fesselnden und
-					benutzerfreundlichen Website Anwendungen.
+					Bereit meine Fähigkeiten und mein Fachwissen in ein dynamisches
+					Unternehmen für Entwicklung einer visuell fesselnden und
+					benutzerfreundlichen Website Anwendungen einzubringen.
 				</p>
 			</div>
 		</section>

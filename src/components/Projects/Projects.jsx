@@ -6,9 +6,9 @@ export function Projects() {
 			<h2 class="title">Projekte</h2>
 			<ul class="experience__list">
 				<li class="experience__item">
-					<h3 class="job__title">
+					<h3 class={s.job__title}>
 						<a href="https://github.com/SergeySev/Online_Store">Online Store</a>
-						(Gruppenprojekt)
+						<p>(Gruppenprojekt)</p>
 					</h3>
 					<ul class="job__description">
 						<li>
@@ -28,32 +28,25 @@ export function Projects() {
 							<b> Redux-Toolkit</b> Statusverwaltungsbibliothek und einer Reihe
 							zusätzlicher Bibliotheken verwandter Technologien. Das Projekt
 							implementiert die vollständige Autorisierung und Authentifizierung
-							des Käufers, den Vergleich von Waren, die Filterung usw. Sortieren
-							Sie nach verschiedenen Ebenen von Produktkategorien und
-							Unterkategorien. Hinzufügen und Bearbeiten von Artikeln im
-							Warenkorb, Aufgeben einer Bestellung durch den Käufer und Anzeigen
-							der Historie abgeschlossener Bestellungen.
+							des Käufers, den Vergleich von Waren, die Filterung usw.
 						</li>
 					</ul>
 				</li>
 
 				<li class="experience__item">
-					<h3 class="job__title">
+					<h3 class={s.job__title}>
 						<a href="https://sl101.github.io/TEL-Ran-Diploma-project">
 							Garden, online Store
 						</a>
-						(Diplomarbeit TEL-RAN)
+						<p>(Diplomarbeit TEL-RAN)</p>
 					</h3>
 					<ul class="job__description">
 						<li>
 							Verwendete Technologien: HTML, CSS, JavaScript, REACT, Redux
 						</li>
 						<li>
-							Eine adaptive Anwendung generiert Online-Warenlisten Speichern Sie
-							über ein System von Abrufanforderungen an die API eines lokalen
-							Speichers Verbundenes Backend. Das Projekt wird mit der
-							REACT-Bibliothek geschrieben Verwendung der
-							REDUX-Statusverwaltungsbibliothek und eines lokalen
+							Das Projekt wird mit der REACT-Bibliothek geschrieben Verwendung
+							der REDUX-Statusverwaltungsbibliothek und eines lokalen
 							Datenspeichers. Das Projekt implementiert die Filterung und
 							Sortierung von Waren. Hinzufügen, Artikel aus dem Warenkorb
 							entfernen. Zusätzlich verwendete Bibliotheken: (
@@ -67,11 +60,11 @@ export function Projects() {
 				</li>
 
 				<li class="experience__item">
-					<h3 class="job__title">
+					<h3 class={s.job__title}>
 						<a href="https://sl101.github.io/TelRan-fake-store/#/">
 							Merchandise Store
 						</a>
-						(Persönliches Lernprojekt)
+						<p>(Persönliches Lernprojekt)</p>
 					</h3>
 					<ul class="job__description">
 						<li>Verwendete Technologien: HTML, CSS, JavaScript, REACT</li>
@@ -86,11 +79,11 @@ export function Projects() {
 				</li>
 
 				<li class="experience__item">
-					<h3 class="job__title">
+					<h3 class={s.job__title}>
 						<a href="https://sl101.github.io/Viacheslav_Zhevaha/index.html">
 							Portfolio
 						</a>
-						(Persönliche Website)
+						<p>(Persönliche Website)</p>
 					</h3>
 					<ul class="job__description">
 						<li>Verwendete Technologien: HTML, CSS, JavaScript</li>
@@ -106,11 +99,11 @@ export function Projects() {
 				</li>
 
 				<li class="experience__item">
-					<h3 class="job__title">
+					<h3 class={s.job__title}>
 						<a href="https://sl101.github.io/BarberShop/app/index.html">
 							Barber shop
 						</a>
-						(Persönliches Lernprojekt)
+						<p>(Persönliches Lernprojekt)</p>
 					</h3>
 					<ul class="job__description">
 						<li>Verwendete Technologien: HTML, CSS, JavaScript</li>

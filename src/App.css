@@ -85,13 +85,6 @@ h4 {
 	flex-wrap: wrap;
 }
 
-.date {
-	font-size: 16px;
-	font-style: italic;
-	text-transform: lowercase;
-	text-align: end;
-}
-
 .education_item:not(:last-child),
 .experience__item:not(:last-child) {
 	margin-bottom: 20px;

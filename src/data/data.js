@@ -7,6 +7,7 @@ export const links = [
 		label: "Meine email",
 		icon: "fa-solid fa-envelope",
 		text: "v.zhevaha@gmail.com",
+		target: "blank",
 	},
 	{
 		id: 2,
@@ -14,6 +15,7 @@ export const links = [
 		label: "Meine Adresse",
 		icon: "fa-solid fa-location-dot",
 		text: "Deutschland, Berlin 10967",
+		target: "blank",
 	},
 	{
 		id: 3,
@@ -21,6 +23,7 @@ export const links = [
 		label: "Mein GitHub",
 		icon: "fa-brands fa-github",
 		text: "GitHub",
+		target: "blank",
 	},
 	{
 		id: 4,
@@ -28,6 +31,7 @@ export const links = [
 		label: "Mein Linkedin",
 		icon: "fa-brands fa-linkedin",
 		text: "Linkedin",
+		target: "blank",
 	},
 	{
 		id: 5,
@@ -35,6 +39,7 @@ export const links = [
 		label: "Mein Telegram",
 		icon: "fa-brands fa-telegram",
 		text: "Telegram",
+		target: "blank",
 	},
 	{
 		id: 6,
@@ -43,5 +48,36 @@ export const links = [
 		img: qr_code,
 		alt: "QR code",
 		text: "portfolio",
+		target: "blank",
+	},
+	{
+		id: 7,
+		href: "#",
+		label: "Meine Sprache",
+		icon: "fa-solid fa-globe",
+		alt: "globe",
+		text: "Sprache",
+		content: [
+			{ "Englisch - ": "B2" },
+			{ "Deutsch - ": "A1" },
+			{ "Ukrainisch - ": "C2" },
+			{ "Russisch - ": "C2" },
+		],
+	},
+	{
+		id: 8,
+		href: "#",
+		label: "Meine Skills",
+		icon: "fa-solid fa-code",
+		alt: "code",
+		text: "Skills",
+		content: [
+			{ "Programmiersprachen: ": "JS, HTML5, CSS3, SASS" },
+			{ "Erfahrungen mit ": "Java, Node.js, Android SDK" },
+			{ "Bibliotheken/Frameworks: ": "React, Redux, Vue" },
+			{ "Datenbanken: ": "SQL, MongoDB" },
+			{ "Versionskontrollsysteme: ": "Git" },
+			{ "Domänenanalyse, ": "Planung und Entwicklungslebenszyklus" },
+		],
 	},
 ];

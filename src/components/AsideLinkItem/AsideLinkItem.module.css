@@ -1,7 +1,7 @@
 .aside__link {
 	display: flex;
 	align-items: center;
-	gap: 7px;
+	gap: 10px;
 	color: var(--black-color);
 	text-decoration: none;
 	outline: none;
@@ -12,7 +12,16 @@
 	align-items: start;
 }
 
+.icon {
+	width: 18px;
+	height: 18px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
 .aside__link i {
+	width: 100%;
 	transition: color var(--transition);
 }
 
@@ -42,4 +51,16 @@
 
 .aside__link:hover i {
 	color: var(--green-color);
+}
+
+.values_list {
+	margin: 10px 0 0 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.values_list span.skills {
+	display: block;
+	font-weight: 700;
 }
