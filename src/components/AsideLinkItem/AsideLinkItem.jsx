@@ -1,14 +1,6 @@
 import s from "./AsideLinkItem.module.css";
 
 export function AsideLinkItem({ link }) {
-	//const content = (
-	//	<ul className={s.languages}>
-	//		<li>Englisch - B2</li>
-	//		<li>Deutsch - A1</li>
-	//		<li>Ukrainisch - C2</li>
-	//		<li>Russisch - C2</li>
-	//	</ul>
-	//);
 	return (
 		<li>
 			<a

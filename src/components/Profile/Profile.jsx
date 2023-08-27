@@ -1,15 +1,16 @@
+import { useContext } from "react";
+import { LangContext } from "../../context/LangContext";
+import { profile_de, profile_en } from "../../data/data";
+
 export function Profile() {
+	const { lang } = useContext(LangContext);
+	const context = lang ? profile_en : profile_de;
+
 	return (
 		<section>
-			<h2 class="title">Zusammenfassung:</h2>
+			<h2 className="title">{context.title}</h2>
 			<div>
-				<p>
-					Ergebnisorientierter Frontend-Entwickler mit starkem Fokus auf
-					Crafting Optisch ansprechende und benutzerfreundliche Weboberflächen.
-					Bereit meine Fähigkeiten und mein Fachwissen in ein dynamisches
-					Unternehmen für Entwicklung einer visuell fesselnden und
-					benutzerfreundlichen Website Anwendungen einzubringen.
-				</p>
+				<p>{context.description}</p>
 			</div>
 		</section>
 	);
