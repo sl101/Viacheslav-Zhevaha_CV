@@ -59,7 +59,7 @@ export const links_de = [
 		text: "Sprache",
 		content: [
 			{ "Englisch - ": "B2" },
-			{ "Deutsch - ": "A1" },
+			{ "Deutsch - ": "A2" },
 			{ "Ukrainisch - ": "C2" },
 			{ "Russisch - ": "C2" },
 		],
@@ -141,7 +141,7 @@ export const links_en = [
 		text: "Languages",
 		content: [
 			{ "English - ": "B2" },
-			{ "German - ": "A1" },
+			{ "German - ": "A2" },
 			{ "Ukrainian - ": "C2" },
 			{ "Russian - ": "C2" },
 		],
@@ -165,14 +165,14 @@ export const links_en = [
 ];
 
 export const profile_de = {
-	title: "Zusammenfassung:",
+	title: "Summary:",
 	description:
-		"Ergebnisorientierter Frontend-Entwickler mit starkem Fokus auf Crafting Optisch ansprechende und benutzerfreundliche Weboberflächen. Bereit meine Fähigkeiten und mein Fachwissen in ein dynamisches Unternehmen für Entwicklung einer visuell fesselnden und benutzerfreundlichen Website Anwendungen einzubringen.",
+		"Ergebnisorientierter Frontend-Entwickler mit Fokus auf Erfolg in einem schnell wachsenden Unternehmen, das optisch ansprechende und benutzerfreundliche Webanwendungen entwickelt.",
 };
 export const profile_en = {
 	title: "Summary:",
 	description:
-		"Result-oriented Frontend Developer with a strong focus on crafting visually appealing and user-friendly web interfaces. Skilled in translating design concepts into functional code, optimizing performance, and ensuring cross-browser compatibility. Responsible, detail-oriented, and punctual, with a passion for innovation in frontend technologies. Thrives in collaborative team environments, working alongside professionals to achieve project success. Ready to contribute my skills and expertise to a dynamic company in the development of visually captivating and user-friendly web applications.",
+		"Results-oriented front-end developer with a focus on achieving success in a fast-growing company developing visually appealing and user-friendly web applications.",
 };
 
 export const projects_de = [
@@ -194,7 +194,7 @@ export const projects_de = [
 		technologies:
 			"Verwendete Technologien: HTML, CSS, JavaScript, REACT, Redux",
 		description:
-			"Das Projekt wird mit der REACT-Bibliothek geschrieben Verwendung der REDUX-Statusverwaltungsbibliothek und eines lokalen Datenspeichers. Das Projekt implementiert die Filterung und Sortierung von Waren. Hinzufügen, Artikel aus dem Warenkorb entfernen. Zusätzlich verwendete Bibliotheken (react-router-dom, react-router-hash-link, redux, react-redux,redux-thunk, react-icons, uuid,react-hook-form)",
+			"Das Projekt wird mit der REACT-Bibliothek geschrieben Verwendung der REDUX-Statusverwaltungsbibliothek und eines lokalen Datenspeichers. Das Projekt implementiert die Filterung und Sortierung von Waren, hinzufügen, Artikel aus dem Warenkorb entfernen. Zusätzlich verwendete Bibliotheken: react-router-dom, react-router-hash-link, redux, react-redux,redux-thunk, react-icons, uuid,react-hook-form",
 	},
 	{
 		id: 3,
@@ -203,7 +203,7 @@ export const projects_de = [
 		subtitle: "(Persönliches Lernprojekt)",
 		technologies: "Verwendete Technologien: HTML, CSS, JavaScript, REACT",
 		description:
-			"Das Projekt verwendete Abrufanforderungen an die API, um eine Liste zu erstellen Produkte. Responsive Anwendungen werden in REACT mit Native geschrieben REACT-Status und lokaler Datenspeicher. Das Projekt implementierte die Filtern von Waren, Arbeiten mit einem Warenkorb.",
+			"Das Projekt verwendete Abrufanforderungen an die API, um eine Liste zu erstellen Produkte. Responsive Anwendungen werden in REACT mit Native geschrieben REACT-Status und lokaler Datenspeicher. Das Projekt implementierte die Filter von Waren, Arbeiten mit einem Warenkorb.",
 	},
 	{
 		id: 4,
@@ -212,7 +212,7 @@ export const projects_de = [
 		subtitle: "(Persönliche Website)",
 		technologies: "Verwendete Technologien: HTML, CSS, JavaScript",
 		description:
-			"Persönliche Seite, gehostet auf der Github Pages-Technologie. Reaktionsfreudig Anwendung für die persönliche Präsentation. Die Anwendung Nutzt Layout-Technologien-Raster bei flexibler Platzierung von Elementen, Relative Positionierung. Der Slider-Bereich enthält Links zu anderen Persönliche und berufliche Projekte.",
+			"Persönliche Seite, gehostet auf der Github Pages-Technologie. Reaktionsfreudig Anwendung für die persönliche Präsentation. Die Anwendung nutzt Layout-Technologien-Raster bei flexibler Platzierung von Elementen, Relative Positionierung. Der Slider-Bereich enthält Links zu anderen persönlichep und beruflichen Projekte.",
 	},
 	{
 		id: 5,
@@ -221,7 +221,7 @@ export const projects_de = [
 		subtitle: "(Persönliches Lernprojekt)",
 		technologies: "Verwendete Technologien: HTML, CSS, JavaScript",
 		description:
-			"Die Schulungsvorlage für den Online-Shop wird auf Github-Seiten gehostet Technologie. Zugängliche, reaktionsfähige Anwendung mit verschiedenen Adaptive Layout-Technologien, Flex- und Grid-Raster, CSS-Animationen, Schieberegler. Es wird reines Javascript verwendet.",
+			"Die Schulungsvorlage für den Online-Shop wird auf Github-Seiten gehostet Technologie. Zugängliche, reaktionsfähige Anwendung mit verschiedenen Adaptiven Layout-Technologien, Flex- und Grid-Raster, CSS-Animationen, Schieberegler. Es wird reines Javascript verwendet.",
 	},
 ];
 
@@ -279,11 +279,11 @@ export const experiences_de = [
 		id: 1,
 		title: "Freiberuflicher Frontend-Entwickler",
 		subtitle: "Verschiedene Clients, Remote",
-		date: "Januar 2023 – heute",
+		date: "Januar 2022 – heute",
 		descriptions: [
 			{
 				id: 1,
-				text: "Hatte Erfahrung in der Entwicklung von Schnittstellen in HTML/CSS, Javascript. Die Aufgabe bestand darin, ein barrierefreies, adaptives Layout mit modernen Mitteln zu schaffen. Technologien: Grid, flexible Platzierung von Elementen auf der Seite. Die Entwicklung erforderte die Interaktion mit anderen Entwicklern und dem Kunden, für den das Versionskontrollsystem Git verwendet wurde.",
+				text: "Erfahrung in der Entwicklung von Schnittstellen in HTML/CSS, Javascript. Die Aufgabe bestand darin, ein barrierefreies, adaptives Layout mit modernen Mitteln zu schaffen. Technologien: Grid, flexible Platzierung von Elementen auf der Seite. Die Entwicklung erforderte die Interaktion mit anderen Entwicklern und dem Kunden, für die das Versionskontrollsystem Git verwendet wurde.",
 			},
 		],
 	},
@@ -304,7 +304,7 @@ export const experiences_de = [
 			},
 			{
 				id: 3,
-				text: "	Leitete ein Team von Vertriebsmitarbeitern und führte den Vertrieb erfolgreich durch Ziele für verschiedene Versicherungsprodukte.",
+				text: "	Ich leite ein Team von Vertriebsmitarbeitern und führte den Vertrieb erfolgreich durch Ziele für verschiedene Versicherungsprodukte.",
 			},
 			{
 				id: 4,

@@ -15,7 +15,6 @@ export function Projects() {
 					<li key={project.id} className="experience__item">
 						<h3 className={s.job__title}>
 							<a href={project.link}>{project.title}</a>
-							<p>{project.subtitle}</p>
 						</h3>
 						<ul className="job__description">
 							<li>{project.technologies}</li>
