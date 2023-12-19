@@ -177,7 +177,17 @@ export const profile_en = {
 
 export const projects_de = [
 	{
-		id: 1,
+		id: 6,
+		link: "https://dev.d.medcol.io/atlas/admin",
+		title: "Med Atlas",
+		subtitle: "(Internetanwendung)",
+		technologies:
+			"Verwendete Technologien: HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit, Fabric.js",
+		description:
+			"Die Konzept- und Hypothesenstudie der Webanwendung Medical Atlas soll Medizinstudierenden und praktizierenden Ärzten als Referenz-Wissensbasis in Form markierter Bereiche zur Visualisierung der Anatomie des menschlichen Körpers dienen. Das Technologieprojekt ist eine Client-Server-Anwendung. Das Backend ist in Java unter Verwendung einer PostgresQl-Datenbank geschrieben. Die Client-Anwendung verwendet die REACT-Bibliothek, die Redux-Toolkit-Statusverwaltungsbibliothek. Darüber hinaus dient die Fabric.js-Bibliothek zur Visualisierung spezifischer Dateninhalte sowie eine Reihe zusätzlicher Bibliotheken verwandter Technologien.",
+	},
+	{
+		id: 5,
 		link: "https://sergeysev.github.io/Online_Store/",
 		title: "Online Store",
 		subtitle: "(Gruppenprojekt)",
@@ -187,7 +197,7 @@ export const projects_de = [
 			"Gruppenarbeit an einem Online-Shop-Projekt. Das Projekt nutzt die Agile Anwendungsentwicklungsmethodik. Beteiligt an fortgeschrittenen Konzepten der Gruppeninteraktion, Scrum Projektmanagementsystem. Als Ergebnis verfügen wir über eine voll funktionsfähige  Client-Server Anwendung mit einem separat in Python geschriebenen Backend, einem MongoDB Datenbankverwaltungssystem, das auf dem Docker Anwendungscontainer basiert. Clientseitige Anwendung unter Verwendung der REACT Bibliothek, der Redux-Toolkit Statusverwaltungsbibliothek und einer Reihe zusätzlicher Bibliotheken verwandter Technologien. Das Projekt implementiert die vollständige Autorisierung und Authentifizierung des Käufers, den Vergleich von Waren, die	 Filterung usw.",
 	},
 	{
-		id: 2,
+		id: 4,
 		link: "https://sl101.github.io/TEL-Ran-Diploma-project",
 		title: "Garden, online Store",
 		subtitle: "(Diplomarbeit TEL-RAN)",
@@ -206,7 +216,7 @@ export const projects_de = [
 			"Das Projekt verwendete Abrufanforderungen an die API, um eine Liste zu erstellen Produkte. Responsive Anwendungen werden in REACT mit Native geschrieben REACT-Status und lokaler Datenspeicher. Das Projekt implementierte die Filter von Waren, Arbeiten mit einem Warenkorb.",
 	},
 	{
-		id: 4,
+		id: 2,
 		link: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
 		title: "Portfolio",
 		subtitle: "(Persönliche Website)",
@@ -215,7 +225,7 @@ export const projects_de = [
 			"Persönliche Seite, gehostet auf der Github Pages-Technologie. Reaktionsfreudig Anwendung für die persönliche Präsentation. Die Anwendung nutzt Layout-Technologien-Raster bei flexibler Platzierung von Elementen, Relative Positionierung. Der Slider-Bereich enthält Links zu anderen persönlichep und beruflichen Projekte.",
 	},
 	{
-		id: 5,
+		id: 1,
 		link: "https://sl101.github.io/BarberShop/app/index.html",
 		title: "Barber shop",
 		subtitle: "(Persönliches Lernprojekt)",
@@ -227,7 +237,17 @@ export const projects_de = [
 
 export const projects_en = [
 	{
-		id: 1,
+		id: 6,
+		link: "https://dev.d.medcol.io/atlas/admin",
+		title: "Med Atlas",
+		subtitle: "(web application)",
+		technologies:
+			"Used technologies: HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit, Fabric.js",
+		description:
+			"The concept and hypothesis study of the Medical Atlas web application is intended to help medical students and practicing physicians as a reference knowledge base in the form of marked areas for visualizing the anatomy of the human body. The technology project is a client-server application. The backend is written in Java using a PostgresQl database. The client application uses the REACT library, the Redux-Toolkit state management library. In addition, the Fabric.js library is used to visualize specific data content, as well as a number of additional libraries of related technologies.",
+	},
+	{
+		id: 5,
 		link: "https://sergeysev.github.io/Online_Store/",
 		title: "Online Store",
 		subtitle: "(Group project)",
@@ -237,7 +257,7 @@ export const projects_en = [
 			"Group work on an online shop project. The project uses the Agile application development methodology. Involved in advanced concepts of group interaction, Scrum project management system. As a result, we have a fully functional client-server application with a backend written separately in Python, a MongoDB database management system based on the Docker application container. Client-side application using the REACT library, the Redux toolkit state management library and a number of additional libraries of related technologies. The project implements full authorization and authentication of the buyer, comparison of goods, filtering, etc.",
 	},
 	{
-		id: 2,
+		id: 4,
 		link: "https://sl101.github.io/TEL-Ran-Diploma-project",
 		title: "Garden, online Store",
 		subtitle: "(Diploma project TEL-RAN)",
@@ -255,7 +275,7 @@ export const projects_en = [
 			"The project used fetch requests to the API to create a list of products. Responsive application is written in REACT using native REACT state and local data store. The project implemented the filtering of goods, work with a basket of goods.",
 	},
 	{
-		id: 4,
+		id: 2,
 		link: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
 		title: "Portfolio",
 		subtitle: "(Personal website)",
@@ -264,7 +284,7 @@ export const projects_en = [
 			"Personal page hosted on Github Pages technology. Responsive application designed for personal presentation. The application uses layout technologies - grid in flex placement of elements, relative positioning. The slider section contains links to other personal and work projects.",
 	},
 	{
-		id: 5,
+		id: 1,
 		link: "https://sl101.github.io/BarberShop/app/index.html",
 		title: "Barber shop",
 		subtitle: "(personal learning project)",
