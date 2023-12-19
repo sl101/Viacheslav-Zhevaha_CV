@@ -178,7 +178,7 @@ export const profile_en = {
 export const projects_de = [
 	{
 		id: 1,
-		link: "https://github.com/SergeySev/Online_Store",
+		link: "https://sergeysev.github.io/Online_Store/",
 		title: "Online Store",
 		subtitle: "(Gruppenprojekt)",
 		technologies:
@@ -228,7 +228,7 @@ export const projects_de = [
 export const projects_en = [
 	{
 		id: 1,
-		link: "https://github.com/SergeySev/Online_Store",
+		link: "https://sergeysev.github.io/Online_Store/",
 		title: "Online Store",
 		subtitle: "(Group project)",
 		technologies:

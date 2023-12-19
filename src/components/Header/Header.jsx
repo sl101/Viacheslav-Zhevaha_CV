@@ -12,7 +12,7 @@ export function Header() {
 			</div>
 			<div className={s.performance}>
 				<p>Viacheslav Zhevaha</p>
-				<h1>Frontend Entwickler</h1>
+				<h1>Frontend {lang ? "Developer" : "Entwickler"}</h1>
 				<div className={s.header__lang}>
 					<span
 						className={`${s.lang_item} ${s[lang ? "active" : ""] || ""}`}
