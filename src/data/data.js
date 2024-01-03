@@ -74,7 +74,7 @@ export const links_de = [
 		content: [
 			{ "Programmiersprachen: ": "JS, HTML5, CSS3, SASS" },
 			{ "Erfahrungen mit ": "Java, Node.js, Android SDK" },
-			{ "Bibliotheken/Frameworks: ": "React, Redux, Vue" },
+			{ "Bibliotheken/Frameworks: ": "React, Redux, Vue, Fabric.js" },
 			{ "Datenbanken: ": "SQL, MongoDB" },
 			{ "Versionskontrollsysteme: ": "Git" },
 			{ "Domänenanalyse, ": "Planung und Entwicklungslebenszyklus" },
@@ -156,7 +156,7 @@ export const links_en = [
 		content: [
 			{ "Programming Languages: ": "JS, HTML5, CSS3, SASS" },
 			{ "Experience with ": "Java, Node.js, Android SDK" },
-			{ "Libraries/Frameworks: ": "React, Redux, Vue" },
+			{ "Libraries/Frameworks: ": "React, Redux, Vue, Fabric.js" },
 			{ "Databases: ": "SQL, MongoDB" },
 			{ "Version Control Systems: ": "Git" },
 			{ "Domain Analysis, ": " Planning and Development Lifecycle" },
@@ -178,7 +178,16 @@ export const profile_en = {
 export const projects_de = [
 	{
 		id: 6,
-		link: "https://dev.d.medcol.io/atlas/admin",
+		link: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
+		title: "Portfolio",
+		subtitle: "(Persönliche Website)",
+		technologies: "Verwendete Technologien: HTML, CSS, JavaScript",
+		description:
+			"Persönliche Seite, gehostet auf der Github Pages-Technologie. Reaktionsfreudig Anwendung für die persönliche Präsentation. Die Anwendung nutzt Layout-Technologien-Raster bei flexibler Platzierung von Elementen, Relative Positionierung. Der Slider-Bereich enthält Links zu anderen persönlichep und beruflichen Projekte.",
+	},
+	{
+		id: 5,
+		link: "https://github.com/rerad-io/atlas-front",
 		title: "Med Atlas",
 		subtitle: "(Internetanwendung)",
 		technologies:
@@ -187,7 +196,7 @@ export const projects_de = [
 			"Die Konzept- und Hypothesenstudie der Webanwendung Medical Atlas soll Medizinstudierenden und praktizierenden Ärzten als Referenz-Wissensbasis in Form markierter Bereiche zur Visualisierung der Anatomie des menschlichen Körpers dienen. Das Technologieprojekt ist eine Client-Server-Anwendung. Das Backend ist in Java unter Verwendung einer PostgresQl-Datenbank geschrieben. Die Client-Anwendung verwendet die REACT-Bibliothek, die Redux-Toolkit-Statusverwaltungsbibliothek. Darüber hinaus dient die Fabric.js-Bibliothek zur Visualisierung spezifischer Dateninhalte sowie eine Reihe zusätzlicher Bibliotheken verwandter Technologien.",
 	},
 	{
-		id: 5,
+		id: 4,
 		link: "https://sergeysev.github.io/Online_Store/",
 		title: "Online Store",
 		subtitle: "(Gruppenprojekt)",
@@ -197,7 +206,7 @@ export const projects_de = [
 			"Gruppenarbeit an einem Online-Shop-Projekt. Das Projekt nutzt die Agile Anwendungsentwicklungsmethodik. Beteiligt an fortgeschrittenen Konzepten der Gruppeninteraktion, Scrum Projektmanagementsystem. Als Ergebnis verfügen wir über eine voll funktionsfähige  Client-Server Anwendung mit einem separat in Python geschriebenen Backend, einem MongoDB Datenbankverwaltungssystem, das auf dem Docker Anwendungscontainer basiert. Clientseitige Anwendung unter Verwendung der REACT Bibliothek, der Redux-Toolkit Statusverwaltungsbibliothek und einer Reihe zusätzlicher Bibliotheken verwandter Technologien. Das Projekt implementiert die vollständige Autorisierung und Authentifizierung des Käufers, den Vergleich von Waren, die	 Filterung usw.",
 	},
 	{
-		id: 4,
+		id: 3,
 		link: "https://sl101.github.io/TEL-Ran-Diploma-project",
 		title: "Garden, online Store",
 		subtitle: "(Diplomarbeit TEL-RAN)",
@@ -207,22 +216,13 @@ export const projects_de = [
 			"Das Projekt wird mit der REACT-Bibliothek geschrieben Verwendung der REDUX-Statusverwaltungsbibliothek und eines lokalen Datenspeichers. Das Projekt implementiert die Filterung und Sortierung von Waren, hinzufügen, Artikel aus dem Warenkorb entfernen. Zusätzlich verwendete Bibliotheken: react-router-dom, react-router-hash-link, redux, react-redux,redux-thunk, react-icons, uuid,react-hook-form",
 	},
 	{
-		id: 3,
+		id: 2,
 		link: "https://sl101.github.io/TelRan-fake-store/#/",
 		title: "Merchandise Store",
 		subtitle: "(Persönliches Lernprojekt)",
 		technologies: "Verwendete Technologien: HTML, CSS, JavaScript, REACT",
 		description:
 			"Das Projekt verwendete Abrufanforderungen an die API, um eine Liste zu erstellen Produkte. Responsive Anwendungen werden in REACT mit Native geschrieben REACT-Status und lokaler Datenspeicher. Das Projekt implementierte die Filter von Waren, Arbeiten mit einem Warenkorb.",
-	},
-	{
-		id: 2,
-		link: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
-		title: "Portfolio",
-		subtitle: "(Persönliche Website)",
-		technologies: "Verwendete Technologien: HTML, CSS, JavaScript",
-		description:
-			"Persönliche Seite, gehostet auf der Github Pages-Technologie. Reaktionsfreudig Anwendung für die persönliche Präsentation. Die Anwendung nutzt Layout-Technologien-Raster bei flexibler Platzierung von Elementen, Relative Positionierung. Der Slider-Bereich enthält Links zu anderen persönlichep und beruflichen Projekte.",
 	},
 	{
 		id: 1,
@@ -238,7 +238,16 @@ export const projects_de = [
 export const projects_en = [
 	{
 		id: 6,
-		link: "https://dev.d.medcol.io/atlas/admin",
+		link: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
+		title: "Portfolio",
+		subtitle: "(Personal website)",
+		technologies: "Used technologies: HTML, CSS, JavaScript",
+		description:
+			"Personal page hosted on Github Pages technology. Responsive application designed for personal presentation. The application uses layout technologies - grid in flex placement of elements, relative positioning. The slider section contains links to other personal and work projects.",
+	},
+	{
+		id: 5,
+		link: "https://github.com/rerad-io/atlas-front",
 		title: "Med Atlas",
 		subtitle: "(web application)",
 		technologies:
@@ -247,7 +256,7 @@ export const projects_en = [
 			"The concept and hypothesis study of the Medical Atlas web application is intended to help medical students and practicing physicians as a reference knowledge base in the form of marked areas for visualizing the anatomy of the human body. The technology project is a client-server application. The backend is written in Java using a PostgresQl database. The client application uses the REACT library, the Redux-Toolkit state management library. In addition, the Fabric.js library is used to visualize specific data content, as well as a number of additional libraries of related technologies.",
 	},
 	{
-		id: 5,
+		id: 4,
 		link: "https://sergeysev.github.io/Online_Store/",
 		title: "Online Store",
 		subtitle: "(Group project)",
@@ -257,7 +266,7 @@ export const projects_en = [
 			"Group work on an online shop project. The project uses the Agile application development methodology. Involved in advanced concepts of group interaction, Scrum project management system. As a result, we have a fully functional client-server application with a backend written separately in Python, a MongoDB database management system based on the Docker application container. Client-side application using the REACT library, the Redux toolkit state management library and a number of additional libraries of related technologies. The project implements full authorization and authentication of the buyer, comparison of goods, filtering, etc.",
 	},
 	{
-		id: 4,
+		id: 3,
 		link: "https://sl101.github.io/TEL-Ran-Diploma-project",
 		title: "Garden, online Store",
 		subtitle: "(Diploma project TEL-RAN)",
@@ -266,22 +275,13 @@ export const projects_en = [
 			"An adaptive application generates lists of goods in an online store through a system of fetch requests to the API of a locally connected backend. The project is written using the REACT library using the REDUX state management library and a local data store. The project implements filtering and sorting of goods. Adding, removing items from the shopping cart. Additional libraries used: (react-router-dom, react-router-hash-link, redux, react-redux,redux-thunk, react-icons, uuid,react-hook-form)",
 	},
 	{
-		id: 3,
+		id: 2,
 		link: "https://sl101.github.io/TelRan-fake-store/#/",
 		title: "Merchandise Store",
 		subtitle: "(Personal learning project)",
 		technologies: "Used technologies: HTML, CSS, JavaScript, REACT",
 		description:
 			"The project used fetch requests to the API to create a list of products. Responsive application is written in REACT using native REACT state and local data store. The project implemented the filtering of goods, work with a basket of goods.",
-	},
-	{
-		id: 2,
-		link: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
-		title: "Portfolio",
-		subtitle: "(Personal website)",
-		technologies: "Used technologies: HTML, CSS, JavaScript",
-		description:
-			"Personal page hosted on Github Pages technology. Responsive application designed for personal presentation. The application uses layout technologies - grid in flex placement of elements, relative positioning. The slider section contains links to other personal and work projects.",
 	},
 	{
 		id: 1,
@@ -296,7 +296,19 @@ export const projects_en = [
 
 export const experiences_de = [
 	{
-		id: 1,
+		id: 4,
+		title: "Praktikum",
+		subtitle: "Rerad. Medcol app",
+		date: "September 2023 - heute",
+		descriptions: [
+			{
+				id: 1,
+				text: "Als Frontend-Entwickler beim Medical Atlas-Projekt habe ich die Schnittstelle mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js erstellt. Ich habe den Anwendungsstatus mit Redux-Toolkit verwaltet, das Frontend mit Java-basiertem Backend und PostgresQl integriert und spezifische Dateninhalte mit Fabric.js visualisiert. Ich führte Analysen, Optimierungen, Tests und Debugging durch, nutzte Git aktiv zur Versionskontrolle und arbeitete mit dem Team für eine erfolgreiche Projektentwicklung zusammen.",
+			},
+		],
+	},
+	{
+		id: 3,
 		title: "Freiberuflicher Frontend-Entwickler",
 		subtitle: "Verschiedene Clients, Remote",
 		date: "Januar 2022 – heute",
@@ -309,6 +321,18 @@ export const experiences_de = [
 	},
 	{
 		id: 2,
+		title: "Webinterface-Entwickler",
+		subtitle: "Digital enterprise solutions, Remote",
+		date: " Oktober 2019 - 2022",
+		descriptions: [
+			{
+				id: 1,
+				text: "Erstellen von Schnittstellen mit HTML, CSS und JavaScript. Optimierung der Leistung, Codetests, Zusammenarbeit mit Designern und Backend-Entwicklern zur Integration. Die kontinuierliche Erforschung neuer Technologien und Codedokumentation trug zur Verbesserung der Arbeitsqualität bei und gewährleistete Datensicherheit und Schnittstellenzugänglichkeit für alle Benutzer. Teilnahme an internen Projekten und Erfahrungsaustausch bei Treffen mit Kollegen",
+			},
+		],
+	},
+	{
+		id: 1,
 		title: "Verkaufsleiter",
 		subtitle:
 			"Vienna Insurance Group (Ukrainische Versicherungsgruppe), Kiew, Ukraine",
@@ -335,7 +359,19 @@ export const experiences_de = [
 ];
 export const experiences_en = [
 	{
-		id: 1,
+		id: 4,
+		title: "Internship",
+		subtitle: "Rerad. Medcol app",
+		date: "September 2023 - present",
+		descriptions: [
+			{
+				id: 1,
+				text: "As a frontend developer on the Medical Atlas project, I crafted the interface using HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit, and Fabric.js. I managed the application state with Redux-Toolkit, integrated the frontend with Java-based backend and PostgresQl, and visualized specific data content using Fabric.js. I conducted analysis, optimization, testing, debugging, actively utilizing Git for version control, collaborating with the team for a successful project development.",
+			},
+		],
+	},
+	{
+		id: 3,
 		title: "Freelance Front End Developer",
 		subtitle: "Various Clients, Remote",
 		date: "January 2022 - present",
@@ -348,6 +384,18 @@ export const experiences_en = [
 	},
 	{
 		id: 2,
+		title: "Web interface developer",
+		subtitle: "Digital enterprise solutions, Remote",
+		date: " October 2019 - 2022",
+		descriptions: [
+			{
+				id: 1,
+				text: "Creating interfaces using HTML, CSS, and JavaScript. Optimizing performance, code testing, collaborating with designers and backend developers for integration. Continuous exploration of new technologies and code documentation helped enhance the quality of work, ensuring data security and interface accessibility for all users. Participation in internal projects and exchanging experiences during meetups with colleagues",
+			},
+		],
+	},
+	{
+		id: 1,
 		title: "Sales Manager",
 		subtitle:
 			"Vienna Insurance Group (Ukrainian Insurance Group), Kiev Ukraine",
@@ -378,7 +426,7 @@ export const educations_de = [
 		id: 1,
 		title: "Programmierschule Tel-Ran",
 		description: "Entwickler für Benutzeroberflächen. Berlin, Deutschland",
-		date: "September 2022 – Juni 2023",
+		date: "2022-2023, Diplom",
 	},
 	{
 		id: 2,
@@ -399,7 +447,7 @@ export const educations_en = [
 		id: 1,
 		title: "Tel-Ran programming school",
 		description: "Frontend Developer. Berlin, Germany",
-		date: "September 2022 - June 2023",
+		date: "2022-2023, Diploma",
 	},
 	{
 		id: 2,
