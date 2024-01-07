@@ -299,6 +299,7 @@ export const experiences_de = [
 		id: 4,
 		title: "Praktikum",
 		subtitle: "Rerad. Medcol app",
+		link: "https://github.com/rerad-io/atlas-front",
 		date: "September 2023 - heute",
 		descriptions: [
 			{
@@ -309,13 +310,51 @@ export const experiences_de = [
 	},
 	{
 		id: 3,
-		title: "Freiberuflicher Frontend-Entwickler",
-		subtitle: "Verschiedene Clients, Remote",
+		title: "Freiberuflicher",
+		subtitle: "remote",
 		date: "Januar 2022 – heute",
 		descriptions: [
 			{
 				id: 1,
-				text: "Erfahrung in der Entwicklung von Schnittstellen in HTML/CSS, Javascript. Die Aufgabe bestand darin, ein barrierefreies, adaptives Layout mit modernen Mitteln zu schaffen. Technologien: Grid, flexible Platzierung von Elementen auf der Seite. Die Entwicklung erforderte die Interaktion mit anderen Entwicklern und dem Kunden, für die das Versionskontrollsystem Git verwendet wurde.",
+				text: "Über drei Jahre Erfahrung in HTML5, CSS3 und JavaScript (einschließlich ES6+), kompetent in React und nachweislich in der Entwicklung adaptiver und barrierefreier Schnittstellen. Erfahrung im Einsatz von Git zur Versionskontrolle und kollaborativen Entwicklung. Arbeitet aktiv mit Kunden zusammen und strebt nach Liebe zum Detail und Codequalität, um Barrierefreiheitsstandards und moderne Anforderungen zu erfüllen.",
+			},
+			{
+				id: 2,
+				text: "Arbeitsbeispiele:",
+				links: [
+					{
+						id: 1,
+						title: "Online-Shop für Bauwerkzeuge und -ausrüstung.",
+						link: "https://sergeysev.github.io/Online_Store/",
+					},
+					{
+						id: 1,
+						title:
+							"Landingpage für den Verkauf exklusiver handgefertigter Masken.",
+						link: "https://sl101.github.io/Mascs-site/",
+					},
+					{
+						id: 2,
+						title: "Persönliche Website eines professionellen Fotografen.",
+						link: "https://sl101.github.io/Photographer-site/",
+					},
+					{
+						id: 3,
+						title:
+							"Landingpage, die dem Angebot touristischer Reisen in Bergregionen gewidmet ist.",
+						link: "https://sl101.github.io/Ascents-site/",
+					},
+					{
+						id: 4,
+						title: "Online-Shop Kosmetik für Männer (Prototyp).",
+						link: "https://sl101.github.io/BarberShop/app/index.html",
+					},
+					{
+						id: 5,
+						title: 'Landungsmenü der Eismarke "Polar".',
+						link: "https://sl101.github.io/Ice-Cream/",
+					},
+				],
 			},
 		],
 	},
@@ -327,7 +366,33 @@ export const experiences_de = [
 		descriptions: [
 			{
 				id: 1,
-				text: "Erstellen von Schnittstellen mit HTML, CSS und JavaScript. Optimierung der Leistung, Codetests, Zusammenarbeit mit Designern und Backend-Entwicklern zur Integration. Die kontinuierliche Erforschung neuer Technologien und Codedokumentation trug zur Verbesserung der Arbeitsqualität bei und gewährleistete Datensicherheit und Schnittstellenzugänglichkeit für alle Benutzer. Teilnahme an internen Projekten und Erfahrungsaustausch bei Treffen mit Kollegen",
+				text: "Erstellen von Schnittstellen mit HTML, CSS und JavaScript. Optimierung der Leistung, Codetests, Zusammenarbeit mit Designern und Backend-Entwicklern zur Integration. Die kontinuierliche Erforschung neuer Technologien und Codedokumentation trug zur Verbesserung der Arbeitsqualität bei und gewährleistete Datensicherheit und Schnittstellenzugänglichkeit für alle Benutzer. Teilnahme an internen Projekten und Erfahrungsaustausch bei Treffen mit Kollegen.",
+			},
+			{
+				id: 2,
+				text: "Beispiele meiner Beteiligung an Projekten:",
+				links: [
+					{
+						id: 1,
+						title: "E-Commerce-App",
+						link: "https://sl101.github.io/FoxMinded_HTML-CSS/task_8/",
+					},
+					{
+						id: 2,
+						title: "Portal für Buchhaltungsdienstleistungen",
+						link: "https://buhsvit.com.ua/pro-nas/",
+					},
+					{
+						id: 3,
+						title: "Menü für Restaurant",
+						link: "https://sl101.github.io/FoxMinded_JavaScript/task_2/",
+					},
+					{
+						id: 4,
+						title: "Beispiel für einen Online-Shop",
+						link: "https://sl101.github.io/FoxMinded_JavaScript/task_8/",
+					},
+				],
 			},
 		],
 	},
@@ -361,6 +426,7 @@ export const experiences_en = [
 	{
 		id: 4,
 		title: "Internship",
+		link: "https://github.com/rerad-io/atlas-front",
 		subtitle: "Rerad. Medcol app",
 		date: "September 2023 - present",
 		descriptions: [
@@ -372,13 +438,50 @@ export const experiences_en = [
 	},
 	{
 		id: 3,
-		title: "Freelance Front End Developer",
-		subtitle: "Various Clients, Remote",
+		title: "Freelance",
+		subtitle: "remote",
 		date: "January 2022 - present",
 		descriptions: [
 			{
 				id: 1,
-				text: "Had experience in developing interfaces in HTML/CSS, Javascript. The task was an accessible, adaptive layout using modern technologies - a grid, flexible placement of elements on the page. The development required interaction with other developers and the customer, for which the Git version control system was used.",
+				text: "Over three years of experience in HTML5, CSS3, and JavaScript (including ES6+), proficient in React with a track record of crafting adaptive and accessible interfaces. Experienced in using Git for version control and collaborative development. Actively engages with clients, striving for attention to detail and code quality to meet accessibility standards and modern requirements.",
+			},
+			{
+				id: 2,
+				text: "Works examples:",
+				links: [
+					{
+						id: 1,
+						title: "Online store selling construction tools and equipment ",
+						link: "https://sergeysev.github.io/Online_Store/",
+					},
+					{
+						id: 1,
+						title: "Landing page for the sale of exclusive handmade masks.",
+						link: "https://sl101.github.io/Mascs-site/",
+					},
+					{
+						id: 2,
+						title: "Personal website of a professional photographer.",
+						link: "https://sl101.github.io/Photographer-site/",
+					},
+					{
+						id: 3,
+						title:
+							"Landing page dedicated to the offer of tourist trips to mountainous regions.",
+						link: "https://sl101.github.io/Ascents-site/",
+					},
+					{
+						id: 4,
+						title: "Online shop cosmetics for men(prototype).",
+						link: "https://sl101.github.io/BarberShop/app/index.html",
+					},
+					{
+						id: 5,
+						title: 'Landing menu ice cream brand "Polar".',
+						link: "https://sl101.github.io/Ice-Cream/",
+					},
+				],
 			},
 		],
 	},
@@ -390,7 +493,33 @@ export const experiences_en = [
 		descriptions: [
 			{
 				id: 1,
-				text: "Creating interfaces using HTML, CSS, and JavaScript. Optimizing performance, code testing, collaborating with designers and backend developers for integration. Continuous exploration of new technologies and code documentation helped enhance the quality of work, ensuring data security and interface accessibility for all users. Participation in internal projects and exchanging experiences during meetups with colleagues",
+				text: "Creating interfaces using HTML, CSS, and JavaScript. Optimizing performance, code testing, collaborating with designers and backend developers for integration. Continuous exploration of new technologies and code documentation helped enhance the quality of work, ensuring data security and interface accessibility for all users. Participation in internal projects and exchanging experiences during meetups with colleagues.",
+			},
+			{
+				id: 2,
+				text: "Examples of my participation in projects:",
+				links: [
+					{
+						id: 1,
+						title: "E-commerce App",
+						link: "https://sl101.github.io/FoxMinded_HTML-CSS/task_8/",
+					},
+					{
+						id: 2,
+						title: "Accounting services portal",
+						link: "https://buhsvit.com.ua/pro-nas/",
+					},
+					{
+						id: 3,
+						title: "Menu for restaurant",
+						link: "https://sl101.github.io/FoxMinded_JavaScript/task_2/",
+					},
+					{
+						id: 4,
+						title: "Online shop example",
+						link: "https://sl101.github.io/FoxMinded_JavaScript/task_8/",
+					},
+				],
 			},
 		],
 	},

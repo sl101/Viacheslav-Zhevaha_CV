@@ -7,7 +7,7 @@ import {
 	Header,
 	Profile,
 	Projects,
-} from "./components/";
+} from "./components";
 import "./App.css";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 					<Aside />
 					<div className="page__wrapper">
 						<Profile />
-						<Projects />
+						{/*<Projects />*/}
 						<Experience />
 						<Education />
 					</div>

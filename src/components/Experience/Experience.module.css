@@ -1,3 +1,24 @@
 .subtitle {
 	width: 68%;
 }
+
+.works_item {
+	list-style: none;
+	margin-top: 5px;
+}
+
+.subtitle_link,
+.works_links {
+	font-style: italic;
+	color: var(--dark-color);
+	transition: color var(--transition);
+}
+
+.subtitle_link {
+	color: var(--black-color);
+}
+
+.subtitle_link:hover,
+.works_links:hover {
+	color: var(--green-color);
+}
