@@ -53,11 +53,23 @@
 	color: var(--green-color);
 }
 
+.aside__title {
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
 .values_list {
-	margin: 10px 0 0 15px;
+	margin: 10px 0 0 0;
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
+}
+
+.values_list li {
+	list-style: disc;
+	margin-left: 20px;
 }
 
 .values_list span.skills {

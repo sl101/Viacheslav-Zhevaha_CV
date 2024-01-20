@@ -1,12 +1,12 @@
 import qr_code from "./assets/qr_portfolio.png";
 
-export const links_de = [
+export const contacts_de = [
 	{
 		id: 1,
 		href: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxGpBQzTmgHfVvpJHMrNDjddQCWJRSKTdvgnKWcFXJnkFBgLqjhGwzpfqHGhNXzqRjLPTp",
 		label: "Meine email",
 		icon: "fa-solid fa-envelope",
-		text: "v.zhevaha@gmail.com",
+		text: "v.zhevaga@gmail.com",
 		target: "blank",
 	},
 	{
@@ -19,7 +19,7 @@ export const links_de = [
 	},
 	{
 		id: 3,
-		href: "https://github.com/sl101?tab=repositories",
+		href: "https://github.com/sl101",
 		label: "Mein GitHub",
 		icon: "fa-brands fa-github",
 		text: "GitHub",
@@ -45,50 +45,19 @@ export const links_de = [
 		id: 6,
 		href: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
 		label: "Mein Portfolio",
-		img: qr_code,
-		alt: "QR code",
-		text: "portfolio",
+		icon: "fa-solid fa-images",
+		text: "Portfolio",
 		target: "blank",
-	},
-	{
-		id: 7,
-		href: "#",
-		label: "Meine Sprache",
-		icon: "fa-solid fa-globe",
-		alt: "globe",
-		text: "Sprache",
-		content: [
-			{ "Englisch - ": "B2" },
-			{ "Deutsch - ": "A2" },
-			{ "Ukrainisch - ": "C2" },
-			{ "Russisch - ": "C2" },
-		],
-	},
-	{
-		id: 8,
-		href: "#",
-		label: "Meine Skills",
-		icon: "fa-solid fa-code",
-		alt: "code",
-		text: "Skills",
-		content: [
-			{ "Programmiersprachen: ": "JS, HTML5, CSS3, SASS" },
-			{ "Erfahrungen mit ": "Java, Node.js, Android SDK" },
-			{ "Bibliotheken/Frameworks: ": "React, Redux, Vue, Fabric.js" },
-			{ "Datenbanken: ": "SQL, MongoDB" },
-			{ "Versionskontrollsysteme: ": "Git" },
-			{ "Domänenanalyse, ": "Planung und Entwicklungslebenszyklus" },
-		],
 	},
 ];
 
-export const links_en = [
+export const contacts_en = [
 	{
 		id: 1,
 		href: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxGpBQzTmgHfVvpJHMrNDjddQCWJRSKTdvgnKWcFXJnkFBgLqjhGwzpfqHGhNXzqRjLPTp",
 		label: "My email",
 		icon: "fa-solid fa-envelope",
-		text: "v.zhevaha@gmail.com",
+		text: "v.zhevaga@gmail.com",
 		target: "blank",
 	},
 	{
@@ -101,7 +70,7 @@ export const links_en = [
 	},
 	{
 		id: 3,
-		href: "https://github.com/sl101?tab=repositories",
+		href: "https://github.com/sl101",
 		label: "My GitHub",
 		icon: "fa-brands fa-github",
 		text: "GitHub",
@@ -127,14 +96,59 @@ export const links_en = [
 		id: 6,
 		href: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
 		label: "My Portfolio",
-		img: qr_code,
-		alt: "QR code",
-		text: "portfolio",
+		icon: "fa-solid fa-images",
+		text: "Portfolio",
 		target: "blank",
+	},
+];
+
+export const links_de = [
+	{
+		id: 8,
+		label: "Meine Skills",
+		icon: "fa-solid fa-code",
+		alt: "code",
+		text: "Skills",
+		content: [
+			{ "Programmiersprachen: ": "HTML5, CSS3, JS, Java" },
+			{ "Bibliotheken/Frameworks: ": "React, Redux, Fabric.js" },
+			{ "Datenbanken: ": "SQL, MongoDB" },
+			{ "Versionskontrollsysteme: ": "Git" },
+			{ "Domänenanalyse, ": "Planung und Entwicklungslebenszyklus" },
+		],
 	},
 	{
 		id: 7,
-		href: "#",
+		label: "Meine Sprache",
+		icon: "fa-solid fa-globe",
+		alt: "globe",
+		text: "Sprache",
+		content: [
+			{ "Englisch - ": "B2" },
+			{ "Deutsch - ": "A2" },
+			{ "Ukrainisch - ": "C2" },
+			{ "Russisch - ": "C2" },
+		],
+	},
+];
+
+export const links_en = [
+	{
+		id: 8,
+		label: "My Skills",
+		icon: "fa-solid fa-code",
+		alt: "code",
+		text: "Skills",
+		content: [
+			{ "Programming Languages: ": "HTML5, CSS3, JS, Java" },
+			{ "Libraries/Frameworks: ": "React, Redux, Fabric.js" },
+			{ "Databases: ": "SQL, MongoDB" },
+			{ "Version Control Systems: ": "Git" },
+			{ "Domain Analysis, ": " Planning and Development Lifecycle" },
+		],
+	},
+	{
+		id: 7,
 		label: "My Languages",
 		icon: "fa-solid fa-globe",
 		alt: "globe",
@@ -144,22 +158,6 @@ export const links_en = [
 			{ "German - ": "A2" },
 			{ "Ukrainian - ": "C2" },
 			{ "Russian - ": "C2" },
-		],
-	},
-	{
-		id: 8,
-		href: "#",
-		label: "My Skills",
-		icon: "fa-solid fa-code",
-		alt: "code",
-		text: "Skills",
-		content: [
-			{ "Programming Languages: ": "JS, HTML5, CSS3, SASS" },
-			{ "Experience with ": "Java, Node.js, Android SDK" },
-			{ "Libraries/Frameworks: ": "React, Redux, Vue, Fabric.js" },
-			{ "Databases: ": "SQL, MongoDB" },
-			{ "Version Control Systems: ": "Git" },
-			{ "Domain Analysis, ": " Planning and Development Lifecycle" },
 		],
 	},
 ];
