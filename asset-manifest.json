@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Viacheslav-Zhevaha_CV/static/css/main.b6deea3e.css",
+    "main.css": "/Viacheslav-Zhevaha_CV/static/css/main.4e53d3d5.css",
     "main.js": "/Viacheslav-Zhevaha_CV/static/js/main.80358db9.js",
     "static/media/sl_.jpg": "/Viacheslav-Zhevaha_CV/static/media/sl_.ac3c019dd05724719068.jpg",
     "index.html": "/Viacheslav-Zhevaha_CV/index.html",
-    "main.b6deea3e.css.map": "/Viacheslav-Zhevaha_CV/static/css/main.b6deea3e.css.map",
+    "main.4e53d3d5.css.map": "/Viacheslav-Zhevaha_CV/static/css/main.4e53d3d5.css.map",
     "main.80358db9.js.map": "/Viacheslav-Zhevaha_CV/static/js/main.80358db9.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6deea3e.css",
+    "static/css/main.4e53d3d5.css",
     "static/js/main.80358db9.js"
   ]
 }
