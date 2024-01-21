@@ -1,4 +1,4 @@
-.subtitle {
+/*.subtitle {
 	width: 68%;
 }
 
@@ -21,4 +21,72 @@
 .subtitle_link:hover,
 .works_links:hover {
 	color: var(--green-color);
+}*/
+
+.experience__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.experience__item {}
+
+.project {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.job__title {
+	margin: 0;
+	min-width: 255px;
+	white-space: nowrap;
+	font-weight: 600;
+}
+
+.job__date {
+	white-space: nowrap;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-style: italic;
+	text-align: end;
+}
+
+.projects {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.project_item {}
+
+.projects_title {
+	text-decoration: none;
+	color: var(--black-color);
+	padding-bottom: 1px;
+	outline: none;
+	border-bottom: 1px solid var(--black-color);
+	transition: border-color var(--transition), color var(--transition);
+}
+
+.projects_title:focus {
+	color: var(--green-color);
+}
+
+
+.projects_title:hover {
+	color: var(--green-color);
+}
+
+.projects_title:hover {
+	border-color: var(--green-color);
+}
+
+.projects_description {
+	margin-top: 3px;
+	font-size: 16px;
+	color: var(--dark-color);
 }

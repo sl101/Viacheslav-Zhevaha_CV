@@ -70,6 +70,7 @@
 .values_list li {
 	list-style: disc;
 	margin-left: 20px;
+	text-align: left;
 }
 
 .values_list span.skills {

@@ -10,34 +10,24 @@ export function Experience() {
 	return (
 		<section className="experience">
 			<h2 className="title">{lang ? "Experience" : "Erfahrung"}</h2>
-			<ul className="experience__list">
+			<ul className={s.experience__list}>
 				{experiences?.map((item, index) => (
-					<li key={index} className="experience__item">
-						<h3 className="job__title">{item.title}</h3>
-						<div className="job__info">
-							<h4 className={s.subtitle}>
-								<a className={s.subtitle_link} href={item.link}>
-									{item.subtitle}
-								</a>
-							</h4>
-							<p className="date">{item.date}</p>
+					<li key={index} className={s.experience__item}>
+						<div className={s.project}>
+							<h3 className={s.job__title}>{item.jobTitle}</h3>
+							<p className={s.job__date}>{item.date}</p>
 						</div>
-						<ul className="job__description">
-							{item?.descriptions?.map((elem, i) => (
-								<li key={i}>
-									<p style={{ fontSize: "18px" }}>{elem.text}</p>
-									<ul>
-										{elem?.links?.map((unit, j) => (
-											<li
-												key={j}
-												style={{ listStyle: "none", marginTop: "4px" }}
-											>
-												<a className={s.works_links} href={unit.link}>
-													{unit.title}
-												</a>
-											</li>
-										))}
-									</ul>
+						<ul className={s.projects}>
+							{item?.projects?.map((project, projectKey) => (
+								<li key={projectKey} className={s.project_item}>
+									<a
+										className={s.projects_title}
+										href={project.link}
+										target="blank"
+									>
+										{project.projectTitle}
+									</a>
+									<p className={s.projects_description}>{project.text}</p>
 								</li>
 							))}
 						</ul>
