@@ -111,8 +111,16 @@ export const links_de = [
 		alt: "code",
 		text: "Skills",
 		content: [
-			{ "Programmiersprachen: ": "HTML5, CSS3, JS, TS, Java" },
-			{ "Bibliotheken/Frameworks: ": "React, Redux, Fabric.js" },
+			{
+				"Layouts:": "HTML5, CSS3, SASS, Tailwind CSS",
+			},
+			{
+				"Programmiersprachen: ": "Java Script, Type Script, Node JS, Java",
+			},
+			{
+				"Bibliotheken/Frameworks: ":
+					"React, Next, Redux, Vue 3, Nuxt 3, Pinia, Fabric.js",
+			},
 			{ "Datenbanken: ": "SQL, MongoDB" },
 			{ "Versionskontrollsysteme: ": "Git" },
 			{ "Domänenanalyse, ": "Planung und Entwicklungslebenszyklus" },
@@ -141,8 +149,16 @@ export const links_en = [
 		alt: "code",
 		text: "Skills",
 		content: [
-			{ "Programming Languages: ": "HTML5, CSS3, JS, TS, Java" },
-			{ "Libraries/Frameworks: ": "React, Redux, Fabric.js" },
+			{
+				"Layouts: ": "HTML5, CSS3, SASS, Tailwind CSS",
+			},
+			{
+				"Programming Languages: ": "Java Script, Type Script, Node JS, Java",
+			},
+			{
+				"Libraries/Frameworks: ":
+					"React, Next, Redux, Vue 3, Nuxt 3, Pinia, Fabric.js",
+			},
 			{ "Databases: ": "SQL, MongoDB" },
 			{ "Version Control Systems: ": "Git" },
 			{ "Domain Analysis, ": " Planning and Development Lifecycle" },

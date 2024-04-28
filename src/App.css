@@ -109,8 +109,9 @@ h4 {
 	text-align: end;
 }
 
-@media (max-width:700px) {
+@media (max-width:1024px) {
 	.main {
 		flex-direction: column;
+		align-items: center;
 	}
 }

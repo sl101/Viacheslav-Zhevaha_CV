@@ -1,11 +1,10 @@
 import { links_de, links_en, contacts_en, contacts_de } from "../../data/data";
 import { AsideLinkItem } from "..";
-import s from "./AsideLinksList.module.css";
 import { useContext } from "react";
 import { LangContext } from "../../context/LangContext";
+import s from "./AsideLinksList.module.css";
 
 export function AsideLinksList({ content }) {
-	console.log("🚀 ~ AsideLinksList ~ content:", content);
 	const { lang } = useContext(LangContext);
 
 	const context =

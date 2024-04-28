@@ -1,35 +1,8 @@
-/*.subtitle {
-	width: 68%;
-}
-
-.works_item {
-	list-style: none;
-	margin-top: 5px;
-}
-
-.subtitle_link,
-.works_links {
-	font-style: italic;
-	color: var(--dark-color);
-	transition: color var(--transition);
-}
-
-.subtitle_link {
-	color: var(--black-color);
-}
-
-.subtitle_link:hover,
-.works_links:hover {
-	color: var(--green-color);
-}*/
-
 .experience__list {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
-
-.experience__item {}
 
 .project {
 	display: flex;
@@ -42,7 +15,6 @@
 .job__title {
 	margin: 0;
 	min-width: 255px;
-	white-space: nowrap;
 	font-weight: 600;
 }
 
@@ -60,8 +32,6 @@
 	flex-direction: column;
 	gap: 10px;
 }
-
-.project_item {}
 
 .projects_title {
 	text-decoration: none;

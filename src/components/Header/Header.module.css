@@ -83,7 +83,7 @@ h1 {
 	border-right: 1px solid var(--black-color);
 }
 
-@media (min-width:700px) {
+@media (min-width:1024px) {
 
 	.lang_item:hover {
 		color: var(--green-color);
@@ -91,16 +91,19 @@ h1 {
 }
 
 
-@media (max-width:700px) {
+@media (max-width:1024px) {
 
 	.header {
 		flex-direction: column;
 	}
 
-
 	.performance {
 		padding: 30px 0 0;
 		height: 100%;
 		background-color: transparent;
+	}
+
+	.performance::before {
+		display: none;
 	}
 }
