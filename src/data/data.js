@@ -182,13 +182,13 @@ export const links_en = [
 export const profile_de = {
 	title: "Summary:",
 	description:
-		"Ergebnisorientierter Frontend-Entwickler mit Fokus auf Erfolg in einem schnell wachsenden Unternehmen, das optisch ansprechende und benutzerfreundliche Webanwendungen entwickelt.",
+		"Erfahrener Frontend-Entwickler, inspiriert von der Lösung komplexer Aufgaben und Projekte. Beherrsche <b>JavaScript, TypeScript, React, Redux</b> und <b>UI/UX-Design</b> für die Erstellung benutzerfreundlicher und ästhetisch ansprechender Webanwendungen. Außerdem habe ich Erfahrung in der Backend-Entwicklung mit <b>Node.js, MySQL, MongoDB</b>. Erfolgreich gearbeitet mit <b>agilen Methoden</b>, Versionskontrollwerkzeugen und Paketmanagement. Motiviert zur kontinuierlichen Weiterentwicklung.",
 };
 
 export const profile_en = {
 	title: "Summary:",
 	description:
-		"Results-oriented front-end developer with a focus on achieving success in a fast-growing company developing visually appealing and user-friendly web applications.",
+		"Experienced front-end developer inspired by solving complex tasks and projects. Proficient in <b>JavaScript, TypeScript, React, Redux</b>, and <b>UI/UX</b> design for creating user-friendly and aesthetically appealing web applications. Also, I have experience in back-end development using <b>Node.js, MySQL, MongoDB</b>. Successfully worked with <b>Agile</b> methodologies, version control tools, and package management. Motivated towards continuous development.",
 };
 
 export const projects_de = [
