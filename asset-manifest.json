@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Viacheslav-Zhevaha_CV/static/css/main.63c5ceae.css",
-    "main.js": "/Viacheslav-Zhevaha_CV/static/js/main.b85e2637.js",
+    "main.css": "/Viacheslav-Zhevaha_CV/static/css/main.659386f4.css",
+    "main.js": "/Viacheslav-Zhevaha_CV/static/js/main.32c64023.js",
     "static/media/Medcol_recommendation_letter.jpg": "/Viacheslav-Zhevaha_CV/static/media/Medcol_recommendation_letter.df727303d8e06106714a.jpg",
     "static/media/sl_.jpg": "/Viacheslav-Zhevaha_CV/static/media/sl_.ac3c019dd05724719068.jpg",
     "index.html": "/Viacheslav-Zhevaha_CV/index.html",
-    "main.63c5ceae.css.map": "/Viacheslav-Zhevaha_CV/static/css/main.63c5ceae.css.map",
-    "main.b85e2637.js.map": "/Viacheslav-Zhevaha_CV/static/js/main.b85e2637.js.map"
+    "main.659386f4.css.map": "/Viacheslav-Zhevaha_CV/static/css/main.659386f4.css.map",
+    "main.32c64023.js.map": "/Viacheslav-Zhevaha_CV/static/js/main.32c64023.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c5ceae.css",
-    "static/js/main.b85e2637.js"
+    "static/css/main.659386f4.css",
+    "static/js/main.32c64023.js"
   ]
 }
