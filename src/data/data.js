@@ -1,5 +1,5 @@
 //import qr_code from "./assets/qr_portfolio.png";
-import recommendation from "./assets/Medcol_recommendation_letter.jpg";
+//import recommendation from "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=drive_link";
 
 export const contacts_de = [
 	{
@@ -44,7 +44,7 @@ export const contacts_de = [
 	},
 	{
 		id: 6,
-		href: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
+		href: "https://sl101.github.io/Viacheslav_Zhevaha",
 		label: "Mein Portfolio",
 		icon: "fa-solid fa-images",
 		text: "Portfolio",
@@ -95,7 +95,7 @@ export const contacts_en = [
 	},
 	{
 		id: 6,
-		href: "https://sl101.github.io/Viacheslav_Zhevaha/index.html",
+		href: "https://sl101.github.io/Viacheslav_Zhevaha",
 		label: "My Portfolio",
 		icon: "fa-solid fa-images",
 		text: "Portfolio",
@@ -439,20 +439,33 @@ export const projects_en = [
 //	},
 //];
 
+export const medcol_de =	{
+	id: 1,
+	jobTitle: "Medcol",
+	date: "Oktober 2023 – Dezember 2023",
+	projects: [
+		{
+			id: 1,
+			projectTitle: "Rerad. Medcol app",
+			text: "Ich war für die Frontend-Entwicklung für das Medical Atlas-Projekt verantwortlich und erstellte eine robuste Schnittstelle mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js. Verwalteter Zustand mit Redux, integriertem Java-Server, PostgresQl und Durchführung von Analysen, Optimierungen, Tests und Debugging für eine reibungslose Zusammenarbeit.",
+		},
+	],
+}
+
+export const medcol_en = 	{
+	id: 1,
+	jobTitle: "Medcol",
+	date: "October 2023 - Desember 2023",
+	projects: [
+		{
+			id: 1,
+			projectTitle: "Rerad. Medcol app",
+			text: "I was responsible for front-end development for the Medical Atlas project, creating a robust interface using HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit, and Fabric.js. Managed state using Redux, integrated Java server, PostgresQl and performed analysis, optimization, testing and debugging for smooth collaboration.",
+		},
+	],
+}
+
 export const experiences_de = [
-	{
-		id: 1,
-		jobTitle: "Medcol",
-		date: "Oktober 2023 – Dezember 2023",
-		projects: [
-			{
-				id: 1,
-				projectTitle: "Rerad. Medcol app",
-				link: recommendation,
-				text: "Ich war für die Frontend-Entwicklung für das Medical Atlas-Projekt verantwortlich und erstellte eine robuste Schnittstelle mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js. Verwalteter Zustand mit Redux, integriertem Java-Server, PostgresQl und Durchführung von Analysen, Optimierungen, Tests und Debugging für eine reibungslose Zusammenarbeit.",
-			},
-		],
-	},
 	{
 		id: 2,
 		jobTitle: "Digital enterprise solutions",
@@ -547,19 +560,7 @@ export const experiences_de = [
 ];
 
 export const experiences_en = [
-	{
-		id: 1,
-		jobTitle: "Medcol",
-		date: "October 2023 - Desember 2023",
-		projects: [
-			{
-				id: 1,
-				projectTitle: "Rerad. Medcol app",
-				link: recommendation,
-				text: "I was responsible for front-end development for the Medical Atlas project, creating a robust interface using HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit, and Fabric.js. Managed state using Redux, integrated Java server, PostgresQl and performed analysis, optimization, testing and debugging for smooth collaboration.",
-			},
-		],
-	},
+
 	{
 		id: 2,
 		jobTitle: "Digital enterprise solutions",

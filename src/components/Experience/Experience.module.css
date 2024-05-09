@@ -46,6 +46,9 @@
 	color: var(--green-color);
 }
 
+.experience__item {
+	margin-bottom: 10px;
+}
 
 .projects_title:hover {
 	color: var(--green-color);
