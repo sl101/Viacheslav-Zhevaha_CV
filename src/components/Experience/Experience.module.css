@@ -12,10 +12,42 @@
 	gap: 10px;
 }
 
-.job__title {
-	margin: 0;
-	min-width: 255px;
+.job__position {
+	margin-top: 20px;
+	margin-bottom: 10px;
 	font-weight: 600;
+	font-style: italic;
+	/*min-width: 255px;*/
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.job__title {
+	font-weight: 500;
+	/*font-style: italic;*/
+	min-width: 255px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+
+.job__icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border: 3px solid var(--white-color);
+	box-shadow: 0 0 5px 0 var(--black-color);
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+}
+
+.job__icon img {
+	width: 20px;
+	height: 20px;
+	object-fit: contain;
 }
 
 .job__date {
@@ -27,6 +59,7 @@
 }
 
 .projects {
+	padding-left: 10px;
 	margin-top: 10px;
 	display: flex;
 	flex-direction: column;
@@ -34,6 +67,7 @@
 }
 
 .projects_title {
+	font-style: italic;
 	text-decoration: none;
 	color: var(--black-color);
 	padding-bottom: 1px;

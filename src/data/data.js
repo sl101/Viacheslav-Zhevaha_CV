@@ -1,5 +1,4 @@
-//import qr_code from "./assets/qr_portfolio.png";
-//import recommendation from "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=drive_link";
+import medcol from "./assets/medcol.svg";
 
 export const contacts_de = [
 	{
@@ -134,7 +133,7 @@ export const links_de = [
 		text: "Sprache",
 		content: [
 			{ "Englisch - ": "B2" },
-			{ "Deutsch - ": "A2" },
+			{ "Deutsch - ": "B1" },
 			{ "Ukrainisch - ": "C2" },
 			{ "Russisch - ": "C2" },
 		],
@@ -172,7 +171,7 @@ export const links_en = [
 		text: "Languages",
 		content: [
 			{ "English - ": "B2" },
-			{ "German - ": "A2" },
+			{ "German - ": "B1" },
 			{ "Ukrainian - ": "C2" },
 			{ "Russian - ": "C2" },
 		],
@@ -310,172 +309,36 @@ export const projects_en = [
 	},
 ];
 
-//export const experiences_de = [
-//	{
-//		id: 4,
-//		//title: "Praktikum",
-//		subtitle: "Rerad. Medcol app",
-//		link: "https://github.com/rerad-io/atlas-front",
-//		date: "September 2023 - heute",
-//		descriptions: [
-//			{
-//				id: 1,
-//				text: "Als Frontend-Entwickler beim Medical Atlas-Projekt habe ich die Schnittstelle mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js erstellt. Ich habe den Anwendungsstatus mit Redux-Toolkit verwaltet, das Frontend mit Java-basiertem Backend und PostgresQl integriert und spezifische Dateninhalte mit Fabric.js visualisiert. Ich führte Analysen, Optimierungen, Tests und Debugging durch, nutzte Git aktiv zur Versionskontrolle und arbeitete mit dem Team für eine erfolgreiche Projektentwicklung zusammen.",
-//			},
-//		],
-//	},
-//	{
-//		id: 3,
-//		title: "Freiberuflicher",
-//		subtitle: "remote",
-//		date: "Januar 2022 – heute",
-//		descriptions: [
-//			{
-//				id: 1,
-//				text: "Über drei Jahre Erfahrung in HTML5, CSS3 und JavaScript (einschließlich ES6+), kompetent in React und nachweislich in der Entwicklung adaptiver und barrierefreier Schnittstellen. Erfahrung im Einsatz von Git zur Versionskontrolle und kollaborativen Entwicklung. Arbeitet aktiv mit Kunden zusammen und strebt nach Liebe zum Detail und Codequalität, um Barrierefreiheitsstandards und moderne Anforderungen zu erfüllen.",
-//			},
-//			{
-//				id: 2,
-//				text: "Arbeitsbeispiele:",
-//				links: [
-//					{
-//						id: 1,
-//						title: "Online-Shop für Bauwerkzeuge und -ausrüstung.",
-//						link: "https://sergeysev.github.io/Online_Store/",
-//					},
-//					{
-//						id: 1,
-//						title:
-//							"Landingpage für den Verkauf exklusiver handgefertigter Masken.",
-//						link: "https://sl101.github.io/Mascs-site/",
-//					},
-//					{
-//						id: 2,
-//						title: "Persönliche Website eines professionellen Fotografen.",
-//						link: "https://sl101.github.io/Photographer-site/",
-//					},
-//					{
-//						id: 3,
-//						title:
-//							"Landingpage, die dem Angebot touristischer Reisen in Bergregionen gewidmet ist.",
-//						link: "https://sl101.github.io/Ascents-site/",
-//					},
-//					{
-//						id: 4,
-//						title: "Online-Shop Kosmetik für Männer (Prototyp).",
-//						link: "https://sl101.github.io/BarberShop/app/index.html",
-//					},
-//					{
-//						id: 5,
-//						title: 'Landungsmenü der Eismarke "Polar".',
-//						link: "https://sl101.github.io/Ice-Cream/",
-//					},
-//				],
-//			},
-//		],
-//	},
-//	{
-//		id: 2,
-//		title: "Webinterface-Entwickler",
-//		subtitle: "Digital enterprise solutions, Remote",
-//		date: " Oktober 2019 - 2022",
-//		descriptions: [
-//			{
-//				id: 1,
-//				text: "Erstellen von Schnittstellen mit HTML, CSS und JavaScript. Optimierung der Leistung, Codetests, Zusammenarbeit mit Designern und Backend-Entwicklern zur Integration. Die kontinuierliche Erforschung neuer Technologien und Codedokumentation trug zur Verbesserung der Arbeitsqualität bei und gewährleistete Datensicherheit und Schnittstellenzugänglichkeit für alle Benutzer. Teilnahme an internen Projekten und Erfahrungsaustausch bei Treffen mit Kollegen.",
-//			},
-//			{
-//				id: 2,
-//				text: "Beispiele meiner Beteiligung an Projekten:",
-//				links: [
-//					{
-//						id: 1,
-//						title: "E-Commerce-App",
-//						link: "https://sl101.github.io/FoxMinded_HTML-CSS/task_8/",
-//					},
-//					{
-//						id: 2,
-//						title: "Portal für Buchhaltungsdienstleistungen",
-//						link: "https://buhsvit.com.ua/pro-nas/",
-//					},
-//					{
-//						id: 3,
-//						title: "Menü für Restaurant",
-//						link: "https://sl101.github.io/FoxMinded_JavaScript/task_2/",
-//					},
-//					{
-//						id: 4,
-//						title: "Beispiel für einen Online-Shop",
-//						link: "https://sl101.github.io/FoxMinded_JavaScript/task_8/",
-//					},
-//				],
-//			},
-//		],
-//	},
-//	{
-//		id: 1,
-//		title: "Verkaufsleiter",
-//		subtitle:
-//			"Vienna Insurance Group (Ukrainische Versicherungsgruppe), Kiew, Ukraine",
-//		date: "September 2008 – Oktober 2019",
-//		descriptions: [
-//			{
-//				id: 1,
-//				text: "Entwicklung einer persönlichen Webanwendung für einen Versicherungsvertreter. Ich habe HTML/CSS zum Schreiben verwendet. Ziel war es, neue Kunden zu gewinnen, die Versicherungsprodukte des Unternehmens zu verkaufen.",
-//			},
-//			{
-//				id: 2,
-//				text: "Zur Förderung erarbeitete ich einen Vorschlag zur Umsetzung einer mobilen Anwendung, die die Dienstleistungen und Produkte des Unternehmens darstellt.",
-//			},
-//			{
-//				id: 3,
-//				text: "	Ich leite ein Team von Vertriebsmitarbeitern und führte den Vertrieb erfolgreich durch Ziele für verschiedene Versicherungsprodukte.",
-//			},
-//			{
-//				id: 4,
-//				text: "Entwicklung und Umsetzung von Marketingstrategien zur Steigerung der Marke Sensibilisierung und Steigerung des Umsatzwachstums.",
-//			},
-//		],
-//	},
-//];
-
-export const medcol_de =	{
-	id: 1,
-	jobTitle: "Medcol",
-	date: "Oktober 2023 – Dezember 2023",
-	projects: [
-		{
-			id: 1,
-			projectTitle: "Rerad. Medcol app",
-			text: "Ich war für die Frontend-Entwicklung für das Medical Atlas-Projekt verantwortlich und erstellte eine robuste Schnittstelle mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js. Verwalteter Zustand mit Redux, integriertem Java-Server, PostgresQl und Durchführung von Analysen, Optimierungen, Tests und Debugging für eine reibungslose Zusammenarbeit.",
-		},
-	],
-}
-
-export const medcol_en = 	{
-	id: 1,
-	jobTitle: "Medcol",
-	date: "October 2023 - Desember 2023",
-	projects: [
-		{
-			id: 1,
-			projectTitle: "Rerad. Medcol app",
-			text: "I was responsible for front-end development for the Medical Atlas project, creating a robust interface using HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit, and Fabric.js. Managed state using Redux, integrated Java server, PostgresQl and performed analysis, optimization, testing and debugging for smooth collaboration.",
-		},
-	],
-}
-
 export const experiences_de = [
+	{
+		id: 1,
+		jobTitle: "Medcol",
+		date: "Oktober 2023 – Dezember 2023",
+		position: "Frontend entwickler",
+		icon: medcol,
+		iconBg: "#cddce6",
+		projects: [
+			{
+				id: 1,
+				projectTitle: "Rerad. Medcol app",
+				link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
+				text: "Ich war für die Frontend-Entwicklung des Medical Atlas-Projekts verantwortlich und habe ein robustes Interface mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js erstellt. Ich verwaltete den Status mit Redux, integriertem Java Server, PostgresQl und führte Analysen, Optimierungen, Tests und Debugging durch, um eine reibungslose Zusammenarbeit zu gewährleisten.",
+			},
+		],
+	},
 	{
 		id: 2,
 		jobTitle: "Digital enterprise solutions",
 		date: "Januar 2021 - September 2023",
+		position: "Fullstack developer",
+		icon: "https://lh3.googleusercontent.com/aJgjSWxJ9AHqqvmChgU24XHSujj3byIWvhjuQsaWBPY35P5E1_BMWpb5pT3UIuaZxp7LbM0-zUehzKeJBZJRoZPIpw=s60",
+		iconBg: "#D3E8F8",
 		projects: [
 			{
 				id: 1,
 				projectTitle: "Online-Shop für Bauwerkzeuge und -geräte",
 				link: "https://sergeysev.github.io/Online_Store/",
-				text: "Voll funktionsfähige Client-Server-Anwendung mit Python-Backend, MongoDB-Datenbank in Docker und funktionsreicher Client-Seite mit REACT, Redux-Toolkit und anderen verwandten Technologien, einschließlich umfassender Käuferauthentifizierung und -autorisierung.",
+				text: "Voll ausgestattete Client-Server-Anwendung mit Python-Backend, MongoDB-Datenbank in Docker. Ich war am Design und der Entwicklung eines umfangreichen Frontends unter Verwendung von REACT, Redux-Toolkit und anderen verwandten Technologien beteiligt, einschließlich End-to-End-Kundenauthentifizierung und -autorisierung.",
 			},
 			{
 				id: 2,
@@ -487,7 +350,7 @@ export const experiences_de = [
 				id: 7,
 				projectTitle: "E-commerce App",
 				link: "https://sl101.github.io/FoxMinded_HTML-CSS/task_8/",
-				text: "Entwickelte einen Prototyp für ein E-Commerce-Projekt unter Einbindung von HTML, CSS und JS. Implementierte responsives Design und Funktionalität, einschließlich interaktiver Elemente und dynamischer Inhaltsaktualisierungen, um eine benutzerfreundliche Oberfläche sicherzustellen.",
+				text: "Für diese Aufgabe entwickelte ich einen E-Commerce-Prototypen mit HTML, CSS und JS. Ich implementierte responsives Design und Funktionalität, einschließlich interaktiver Elemente, dynamischer Inhaltsaktualisierung und einer benutzerfreundlichen Oberfläche.",
 			},
 			{
 				id: 3,
@@ -538,39 +401,60 @@ export const experiences_de = [
 		jobTitle:
 			"Vienna Insurance Group (Ukrainische Versicherungsgruppe), Kiew, Ukraine",
 		date: "September 2008 – Oktober 2019",
+		position: "Projektmanager",
+		icon: "https://www.usg.ua/_next/static/media/logo_main.5d648417.svg",
+		iconBg: "#D1F5D9",
 		projects: [
 			{
 				id: 1,
-				text: "Entwicklung einer persönlichen Webanwendung für einen Versicherungsvertreter. Ich habe HTML/CSS zum Schreiben verwendet. Ziel war es, neue Kunden zu gewinnen, die Versicherungsprodukte des Unternehmens zu verkaufen.",
+				text: "Ich habe eine persönliche Webanwendung für einen Versicherungsvertreter entwickelt. Zum Schreiben habe ich HTML/CSS verwendet. Ziel war es, neue Kunden zu gewinnen und die Versicherungsprodukte des Unternehmens zu verkaufen.",
 			},
 			{
 				id: 2,
-				text: "Zur Förderung erarbeitete ich einen Vorschlag zur Umsetzung einer mobilen Anwendung, die die Dienstleistungen und Produkte des Unternehmens darstellt.",
+				text: "Im Rahmen meiner Diplomarbeit entwickelte ich einen Vorschlag für die Implementierung einer mobilen Anwendung, die die Dienstleistungen und Produkte des Unternehmens darstellt.",
 			},
 			{
 				id: 3,
-				text: "	Ich leite ein Team von Vertriebsmitarbeitern und führte den Vertrieb erfolgreich durch Ziele für verschiedene Versicherungsprodukte.",
+				text: "Ich leitete ein Team von Vertriebsmitarbeitern und setzte erfolgreich Verkaufspläne für verschiedene Versicherungsprodukte um.",
 			},
 			{
 				id: 4,
-				text: "Entwicklung und Umsetzung von Marketingstrategien zur Steigerung der Marke Sensibilisierung und Steigerung des Umsatzwachstums.",
+				text: "Ich habe Marketingstrategien entwickelt und umgesetzt, um die Markenbekanntheit und das Umsatzwachstum meiner Abteilung zu steigern.",
 			},
 		],
 	},
 ];
 
 export const experiences_en = [
-
+	{
+		id: 1,
+		jobTitle: "Medcol",
+		date: "October 2023 - Desember 2023",
+		position: "Frontend developer",
+		icon: medcol,
+		iconBg: "#cddce6",
+		projects: [
+			{
+				id: 1,
+				projectTitle: "Rerad. Medcol app",
+				link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
+				text: "I was responsible for front-end development for the Medical Atlas project, creating a robust interface using HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit and Fabric.js. I managed the state using Redux, integrated Java server, PostgresQl and performed analysis, optimisation, testing and debugging to ensure smooth collaboration.",
+			},
+		],
+	},
 	{
 		id: 2,
 		jobTitle: "Digital enterprise solutions",
 		date: "January 2021 - September 2023",
+		position: "Fullstack developer",
+		icon: "https://lh3.googleusercontent.com/aJgjSWxJ9AHqqvmChgU24XHSujj3byIWvhjuQsaWBPY35P5E1_BMWpb5pT3UIuaZxp7LbM0-zUehzKeJBZJRoZPIpw=s60",
+		iconBg: "#D3E8F8",
 		projects: [
 			{
 				id: 1,
 				projectTitle: "Online store selling construction tools and equipment ",
 				link: "https://sergeysev.github.io/Online_Store/",
-				text: "Fully functional client-server application with Python backend, MongoDB database in Docker, and feature-rich client-side using REACT, Redux toolkit, and other related technologies, including comprehensive buyer authentication and authorization.",
+				text: "Full featured client-server application with Python backend, MongoDB database in Docker. I have been involved in the design and development of a rich front end using REACT, Redux toolkit and other related technologies including end-to-end customer authentication and authorization.",
 			},
 			{
 				id: 2,
@@ -582,7 +466,7 @@ export const experiences_en = [
 				id: 7,
 				projectTitle: "E-commerce App",
 				link: "https://sl101.github.io/FoxMinded_HTML-CSS/task_8/",
-				text: "Developed a prototype for an e-commerce project, incorporating HTML, CSS, and JS. Implemented responsive design and functionality, including interactive elements, dynamic content updates, ensuring user-friendly interface.",
+				text: "To complete the task, I developed a prototype e-commerce project using HTML, CSS and JS. I implemented responsive design and functionality, including interactive elements, dynamic content updates and a user-friendly interface.",
 			},
 			{
 				id: 3,
@@ -633,10 +517,13 @@ export const experiences_en = [
 		jobTitle:
 			"Vienna Insurance Group (Ukrainian Insurance Group), Kiev Ukraine",
 		date: "September 2008 - October 2019",
+		position: "Project manager",
+		icon: "https://www.usg.ua/_next/static/media/logo_main.5d648417.svg",
+		iconBg: "#D1F5D9",
 		projects: [
 			{
 				id: 1,
-				text: "Developed a personal web application for an insurance agent. I used HTML/CSS for writing. The goal was to attract new customers to sell the company's insurance products.",
+				text: "I developed a personal web application for an insurance agent. I used HTML/CSS for writing. The goal was to attract new customers to sell the company's insurance products.",
 			},
 			{
 				id: 2,
@@ -644,11 +531,11 @@ export const experiences_en = [
 			},
 			{
 				id: 3,
-				text: "Led a team of sales representatives and successfully met sales targets for various insurance products.",
+				text: "I led a team of sales representatives and successfully met sales targets for various insurance products.",
 			},
 			{
 				id: 4,
-				text: "Developed and executed marketing strategies to increase brand awareness and drive sales growth.",
+				text: "I developed and executed marketing strategies to increase brand awareness and drive sales growth.",
 			},
 		],
 	},
