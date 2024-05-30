@@ -330,7 +330,7 @@ export const experiences_de = [
 		id: 2,
 		jobTitle: "Digital enterprise solutions",
 		date: "Januar 2021 - September 2023",
-		position: "Fullstack developer",
+		position: "JavaScript developer",
 		icon: "https://lh3.googleusercontent.com/aJgjSWxJ9AHqqvmChgU24XHSujj3byIWvhjuQsaWBPY35P5E1_BMWpb5pT3UIuaZxp7LbM0-zUehzKeJBZJRoZPIpw=s60",
 		iconBg: "#D3E8F8",
 		projects: [
@@ -446,7 +446,7 @@ export const experiences_en = [
 		id: 2,
 		jobTitle: "Digital enterprise solutions",
 		date: "January 2021 - September 2023",
-		position: "Fullstack developer",
+		position: "JavaScript developer",
 		icon: "https://lh3.googleusercontent.com/aJgjSWxJ9AHqqvmChgU24XHSujj3byIWvhjuQsaWBPY35P5E1_BMWpb5pT3UIuaZxp7LbM0-zUehzKeJBZJRoZPIpw=s60",
 		iconBg: "#D3E8F8",
 		projects: [
