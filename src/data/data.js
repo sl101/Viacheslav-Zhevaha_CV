@@ -2,11 +2,19 @@ import medcol from "./assets/medcol.svg";
 
 export const contacts_de = [
 	{
-		id: 1,
+		id: 0,
 		href: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxGpBQzTmgHfVvpJHMrNDjddQCWJRSKTdvgnKWcFXJnkFBgLqjhGwzpfqHGhNXzqRjLPTp",
 		label: "Meine email",
 		icon: "fa-solid fa-envelope",
 		text: "v.zhevaga@gmail.com",
+		target: "blank",
+	},
+	{
+		id: 1,
+		href: "tel:+4915164415795",
+		label: "My Phone",
+		icon: "fa-solid fa-phone",
+		text: "(+49) 151 644 15795",
 		target: "blank",
 	},
 	{
@@ -53,11 +61,19 @@ export const contacts_de = [
 
 export const contacts_en = [
 	{
-		id: 1,
+		id: 0,
 		href: "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxGpBQzTmgHfVvpJHMrNDjddQCWJRSKTdvgnKWcFXJnkFBgLqjhGwzpfqHGhNXzqRjLPTp",
 		label: "My email",
 		icon: "fa-solid fa-envelope",
 		text: "v.zhevaga@gmail.com",
+		target: "blank",
+	},
+	{
+		id: 1,
+		href: "tel:+4915164415795",
+		label: "My Phone",
+		icon: "fa-solid fa-phone",
+		text: "(+49) 151 644 15795",
 		target: "blank",
 	},
 	{
@@ -111,10 +127,10 @@ export const links_de = [
 		text: "Skills",
 		content: [
 			{
-				"Layouts:": "HTML5, CSS3, SASS, Tailwind CSS",
+				"Layouts:": "HTML5, CSS3, SASS, Tailwind",
 			},
 			{
-				"Programmiersprachen: ": "Java Script, Type Script, Node JS, Java",
+				"Programmiersprachen: ": "Javascript, Typescript, Node.js, Java",
 			},
 			{
 				"Bibliotheken/Frameworks: ":
@@ -149,10 +165,10 @@ export const links_en = [
 		text: "Skills",
 		content: [
 			{
-				"Layouts: ": "HTML5, CSS3, SASS, Tailwind CSS",
+				"Layouts: ": "HTML5, CSS3, SASS, Tailwind",
 			},
 			{
-				"Programming Languages: ": "Java Script, Type Script, Node JS, Java",
+				"Programming Languages: ": "Javascript, Typescript, Node.js, Java",
 			},
 			{
 				"Libraries/Frameworks: ":
@@ -312,7 +328,7 @@ export const projects_en = [
 export const experiences_de = [
 	{
 		id: 1,
-		jobTitle: "Medcol",
+		jobTitle: "Medcol FZCO",
 		date: "Oktober 2023 – Dezember 2023",
 		position: "Frontend entwickler",
 		icon: medcol,
@@ -320,7 +336,7 @@ export const experiences_de = [
 		projects: [
 			{
 				id: 1,
-				projectTitle: "Rerad. Medcol app",
+				projectTitle: "Praktikum remote, Dubai, VAE",
 				link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
 				text: "Ich war für die Frontend-Entwicklung des Medical Atlas-Projekts verantwortlich und habe ein robustes Interface mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js erstellt. Ich verwaltete den Status mit Redux, integriertem Java Server, PostgresQl und führte Analysen, Optimierungen, Tests und Debugging durch, um eine reibungslose Zusammenarbeit zu gewährleisten.",
 			},
@@ -328,10 +344,10 @@ export const experiences_de = [
 	},
 	{
 		id: 2,
-		jobTitle: "Digital enterprise solutions",
+		jobTitle: "Freiberuflich",
 		date: "Januar 2021 - September 2023",
 		position: "JavaScript developer",
-		icon: "https://lh3.googleusercontent.com/aJgjSWxJ9AHqqvmChgU24XHSujj3byIWvhjuQsaWBPY35P5E1_BMWpb5pT3UIuaZxp7LbM0-zUehzKeJBZJRoZPIpw=s60",
+		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
 		iconBg: "#D3E8F8",
 		projects: [
 			{
@@ -428,15 +444,15 @@ export const experiences_de = [
 export const experiences_en = [
 	{
 		id: 1,
-		jobTitle: "Medcol",
-		date: "October 2023 - Desember 2023",
+		jobTitle: "Medcol FZCO",
+		date: "October 2023 - Deсember 2023",
 		position: "Frontend developer",
 		icon: medcol,
 		iconBg: "#cddce6",
 		projects: [
 			{
 				id: 1,
-				projectTitle: "Rerad. Medcol app",
+				projectTitle: "internship remote, Dubai, UAE",
 				link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
 				text: "I was responsible for front-end development for the Medical Atlas project, creating a robust interface using HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit and Fabric.js. I managed the state using Redux, integrated Java server, PostgresQl and performed analysis, optimisation, testing and debugging to ensure smooth collaboration.",
 			},
@@ -444,10 +460,10 @@ export const experiences_en = [
 	},
 	{
 		id: 2,
-		jobTitle: "Digital enterprise solutions",
+		jobTitle: "Freelance",
 		date: "January 2021 - September 2023",
 		position: "JavaScript developer",
-		icon: "https://lh3.googleusercontent.com/aJgjSWxJ9AHqqvmChgU24XHSujj3byIWvhjuQsaWBPY35P5E1_BMWpb5pT3UIuaZxp7LbM0-zUehzKeJBZJRoZPIpw=s60",
+		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
 		iconBg: "#D3E8F8",
 		projects: [
 			{
