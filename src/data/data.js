@@ -562,13 +562,13 @@ export const educations_de = [
 		id: 1,
 		title: "Programmierschule Tel-Ran",
 		description: "Entwickler für Benutzeroberflächen. Berlin, Deutschland",
-		date: "2022-2023, Diplom",
+		date: "2022-2023, Zertifikat",
 	},
 	{
 		id: 2,
 		title: "STEP Computerakademie",
 		description: "Entwicklung mobiler Anwendungen für Android. Kiew, Ukraine",
-		date: "2014-2015, Diplom",
+		date: "2014-2015, Zertifikat",
 	},
 	{
 		id: 3,
@@ -583,14 +583,14 @@ export const educations_en = [
 		id: 1,
 		title: "Tel-Ran programming school",
 		description: "Frontend Developer. Berlin, Germany",
-		date: "2022-2023, Diploma",
+		date: "2022-2023, Certificate",
 	},
 	{
 		id: 2,
 		title: "STEP Computer Academy",
 		description:
 			"Development of mobile applications for Android. Kyiv, Ukraine",
-		date: "2014-2015, Diploma",
+		date: "2014-2015, Certificate",
 	},
 	{
 		id: 3,
