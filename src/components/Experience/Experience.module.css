@@ -1,38 +1,50 @@
-.experience__list {
+.experience_wrapper {
+	margin-top: 24px;
+}
+
+.experiences__list {
+	margin-top: 24px;
+	padding-left: 10px;
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 24px;
 }
 
-.project {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-	gap: 10px;
-}
-
-.job__position {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-weight: 600;
-	font-style: italic;
-	/*min-width: 255px;*/
-	display: flex;
-	gap: 20px;
-	align-items: center;
-}
-
-.job__title {
+.experience {
+	width: 100%;
 	font-weight: 500;
-	/*font-style: italic;*/
 	min-width: 255px;
 	display: flex;
+	flex-wrap: wrap;
+	gap: 26px;
+	align-items: center;
+}
+
+.experience__position {
+	font-weight: 600;
+	font-style: italic;
+	display: flex;
 	gap: 20px;
 	align-items: center;
 }
 
-.job__icon {
+.experience__date {
+	white-space: nowrap;
+	text-transform: capitalize;
+	/*font-size: 16px;*/
+	font-style: italic;
+	margin-left: auto;
+}
+
+.experience__top {
+	display: flex;
+	flex-direction: column;
+	align-items: self-start;
+}
+
+.experience__icon {
+	flex-grow: 0;
+	flex-shrink: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -44,29 +56,17 @@
 	height: 36px;
 }
 
-.job__icon img {
+.experience__icon img {
 	width: 20px;
 	height: 20px;
 	object-fit: contain;
 }
 
-.job__date {
-	white-space: nowrap;
-	text-transform: capitalize;
-	font-size: 16px;
-	font-style: italic;
-	text-align: end;
+.experience_title {
+	margin-top: 8px;
 }
 
-.projects {
-	padding-left: 10px;
-	margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.projects_title {
+.experience_title_link {
 	font-style: italic;
 	text-decoration: none;
 	color: var(--black-color);
@@ -76,7 +76,53 @@
 	transition: border-color var(--transition), color var(--transition);
 }
 
-.projects_title:focus {
+.experience_description {
+	margin-top: 10px;
+	/*font-size: 16px;*/
+	text-indent: 25px;
+	color: var(--dark-color);
+}
+
+.portfolio_link {
+	color: var(--black-color);
+	font-weight: 500;
+	text-decoration: none;
+	font-style: italic;
+	transition: color var(--transition);
+}
+
+.projects_list {
+	margin-top: 7px;
+	padding-left: 20px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.project {
+	list-style: disc;
+	color: var(--black-color);
+}
+
+.project_wrapper {
+	display: inline-block;
+	border-bottom: 1px solid var(--black-color);
+	cursor: pointer;
+	transition: border-color var(--transition);
+}
+
+.project_name {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: 500;
+	color: var(--black-color);
+	transition: color var(--transition);
+}
+
+.experience_title_link:focus,
+.projects_title:focus,
+.portfolio_link:focus {
 	color: var(--green-color);
 }
 
@@ -84,16 +130,14 @@
 	margin-bottom: 10px;
 }
 
-.projects_title:hover {
+.project_wrapper:hover .project_name,
+.experience_title_link:hover,
+.projects_title:hover,
+.portfolio_link:hover {
 	color: var(--green-color);
-}
-
-.projects_title:hover {
 	border-color: var(--green-color);
 }
 
-.projects_description {
-	margin-top: 3px;
-	font-size: 16px;
-	color: var(--dark-color);
+.project_wrapper:hover {
+	border-color: var(--green-color);
 }

@@ -202,8 +202,7 @@ export const profile_de = {
 
 export const profile_en = {
 	title: "Summary:",
-	description:
-		"Experienced front-end developer inspired by solving complex tasks and projects. Proficient in <b>JavaScript, TypeScript, React, Redux</b>, and <b>UI/UX</b> design for creating user-friendly and aesthetically appealing web applications. Also, I have experience in back-end development using <b>Node.js, MySQL, MongoDB</b>. Successfully worked with <b>Agile</b> methodologies, version control tools, and package management. Motivated towards continuous development.",
+	description: "Experienced front-end developer, inspired by solving complex tasks and creating stunning visualisations. Skilled in <b>JavaScript, TypeScript, React, Next.js, Redux</b>, and <b>UI/UX design</b> to create user-friendly and aesthetically pleasing web applications. Experienced in backend development using <b>Java, Node.js, MySQL</b>, and <b>MongoDB</b>. Successfully working with <b>Agile methodologies</b>, version control tools, and package management <b>Git</b>. Motivated by continuous development.",
 };
 
 export const projects_de = [
@@ -444,116 +443,124 @@ export const experiences_de = [
 export const experiences_en = [
 	{
 		id: 1,
-		jobTitle: "Medcol FZCO",
+		title: "Medcol FZCO",
 		date: "October 2023 - Deсember 2023",
 		position: "Frontend developer",
 		icon: medcol,
 		iconBg: "#cddce6",
-		projects: [
-			{
-				id: 1,
-				projectTitle: "internship remote, Dubai, UAE",
-				link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
-				text: "I was responsible for front-end development for the Medical Atlas project, creating a robust interface using HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit and Fabric.js. I managed the state using Redux, integrated Java server, PostgresQl and performed analysis, optimisation, testing and debugging to ensure smooth collaboration.",
-			},
-		],
+		project_title: "internship remote, Dubai, UAE",
+		link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
+		description: "In order to gain international business experience, I took the opportunity to intern at a startup, where I was involved in the development of a prototype of an interactive medical web application. I worked on the front-end part of the Medical Atlas project, building the front-end using HTML, CSS, JavaScript, TypeScript, React, Redux toolkit and Fabric.js. I managed the state using Redux, integrated the REST API to interact with the backend, and actively participated in data analysis, speed optimisation, testing and debugging the application.",
 	},
 	{
 		id: 2,
-		jobTitle: "Freelance",
-		date: "January 2021 - September 2023",
+		title: "Freelance",
+		date: "2022 - Present",
 		position: "JavaScript developer",
 		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
-		iconBg: "#D3E8F8",
+		iconBg: "#d5efa1",
+		description: "My skills allowed me to start developing web applications professionally. Since then, I have continued to learn new frameworks and libraries in front-end technologies, working as a freelancer worldwide and fully immersing myself in programming, which has become not only my hobby, but also an engaging job and a way of life. I have gained experience in developing full-cycle applications from scratch, as well as significant experience in working in teams of developers with different specialisations. This has given me great satisfaction and led me to realise the need for further professional growth in a team of like-minded individuals.",
+		prescription: "Some of my work and projects during this time can be seen in my ",
 		projects: [
 			{
 				id: 1,
-				projectTitle: "Online store selling construction tools and equipment ",
+				project_title: "Online store selling construction tools and equipment ",
+				project_name: "“Inst room”",
 				link: "https://sergeysev.github.io/Online_Store/",
-				text: "Full featured client-server application with Python backend, MongoDB database in Docker. I have been involved in the design and development of a rich front end using REACT, Redux toolkit and other related technologies including end-to-end customer authentication and authorization.",
+
 			},
 			{
 				id: 2,
-				projectTitle: "Online shop cosmetics for men.",
+				project_title: "Men's cosmetics online store ",
+				project_name: "“BarberShop”",
 				link: "https://sl101.github.io/BarberShop/app/index.html",
-				text: "Accessible, responsive application using various adaptive layout technologies, flex and grid layouts, css animations, sliders. Vanila javascript is used.",
-			},
-			{
-				id: 7,
-				projectTitle: "E-commerce App",
-				link: "https://sl101.github.io/FoxMinded_HTML-CSS/task_8/",
-				text: "To complete the task, I developed a prototype e-commerce project using HTML, CSS and JS. I implemented responsive design and functionality, including interactive elements, dynamic content updates and a user-friendly interface.",
 			},
 			{
 				id: 3,
-				projectTitle: "Personal website of a professional photographer.",
-				link: "https://sl101.github.io/Photographer-site/",
-				text: "Developed a landing page for a professional photographer using HTML, CSS, and JavaScript. Integrated responsive design, high-resolution image gallery, and a feedback form for client convenience.",
+				project_title: "Accounting services portal ",
+				project_name: "“Accounting World”",
+				link: "https://buhsvit.com.ua/",
 			},
 			{
 				id: 4,
-				projectTitle: "Mountain Adventures.",
-				link: "https://sl101.github.io/Ascents-site/",
-				text: "In the development of the 'Mountain Adventures' landing page prototype, I focused on an appealing design, smooth navigation, and interactive elements. Utilizing HTML, CSS, and JavaScript, I created a responsive interface, integrated visual elements highlighting the beauty of mountain regions, and ensured user-friendly interaction with the proposed tourist routes.",
-			},
-			{
-				id: 8,
-				projectTitle: "Accounting services portal",
-				link: "https://buhsvit.com.ua/pro-nas/",
-				text: "Developed the frontend for an accounting services portal, including an intuitive website header, enhanced navigation, and adaptive design for optimal interaction across various devices.",
-			},
-			{
-				id: 5,
-				projectTitle: "Handmade masks.",
-				link: "https://sl101.github.io/Mascs-site/",
-				text: "Development of a prototype for an adaptive page, utilizing flexible grid layouts, CSS animations, and sliders to deliver an interactive and stylish interface. Implemented vanilla JavaScript for optimal performance.",
-			},
-			{
-				id: 6,
-				projectTitle: 'Ice cream "Polar".',
-				link: "https://sl101.github.io/Ice-Cream/",
-				text: "Development of a landing page prototype for ice cream sales. Utilizing flexible grid layouts, CSS animations to create an attractive and interactive interface. Implementation of vanilla JavaScript for optimal performance. Design adheres to professional standards, ensuring an outstanding user experience by highlighting the uniqueness of each ice cream flavor.",
-			},
-			{
-				id: 9,
-				projectTitle: "Menu for restaurant",
-				link: "https://sl101.github.io/FoxMinded_JavaScript/task_2/",
-				text: "The development of the online restaurant store menu page involved creating an intuitive and stylish interface with flexible grid layouts and CSS animations. The implementation of vanilla JavaScript ensured dynamic content updates. Optimized interaction with the database guaranteed fast menu loading. The design aligns with the corporate style, highlighting the quality of dishes and providing a comfortable ordering experience for visitors.",
-			},
-			{
-				id: 10,
-				projectTitle: "Online shop example",
-				link: "https://sl101.github.io/FoxMinded_JavaScript/task_8/",
-				text: "Contributed to the development of a shopping cart for an online furniture store, creating an intuitive interface with flexible grid layouts and CSS animations. Implemented functionality for adding, removing, and modifying the quantity of items in the cart using JavaScript, ensuring user convenience and improving conversion. The design of the cart aligns with the store's style, emphasizing the functionality and aesthetics of the furniture.",
+				project_title: "Corporate website ",
+				project_name: "“In Denmark Heiraten”",
+				link: "https://daenemark-heiraten.com/en",
 			},
 		],
 	},
 	{
 		id: 3,
-		jobTitle:
-			"Vienna Insurance Group (Ukrainian Insurance Group), Kiev Ukraine",
-		date: "September 2008 - October 2019",
-		position: "Project manager",
-		icon: "https://www.usg.ua/_next/static/media/logo_main.5d648417.svg",
-		iconBg: "#D1F5D9",
+		title: "Freelance",
+		date: "September 2019 - 2021",
+		position: "Web Developer",
+		icon: "https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/code-90.png",
+		iconBg: "#a1efec",
+		description: "My passion led me to master various tools used in development. I continued to study through various courses and self-learning in different areas of programming, enjoying the coding process as a hobby. Periodically, I helped friends and acquaintances develop personal websites and completed small freelance jobs. I created accessible, responsive applications using adaptive layouts, flex and grid layouts, CSS animations and sliders, using vanilla JavaScript. Developed an e-commerce prototype, implementing responsive design and functionality, including interactive elements, dynamic content updates and a user-friendly interface.",
+		prescription: "Examples of some of my work can be seen in my ",
 		projects: [
 			{
 				id: 1,
-				text: "I developed a personal web application for an insurance agent. I used HTML/CSS for writing. The goal was to attract new customers to sell the company's insurance products.",
+				project_title: "Landing page for professional photographer ",
+				project_name: "“Kovalyova Mary”",
+				link: "https://sl101.github.io/Photographer-site/",
+
 			},
 			{
 				id: 2,
-				text: "In order to promote, I developed a proposal for the implementation of a mobile application that represents the services and products of the company.",
+				project_title: "Handmade masks sales page ",
+				project_name: "“Masks”",
+				link: "https://sl101.github.io/Mascs-site/",
 			},
 			{
 				id: 3,
-				text: "I led a team of sales representatives and successfully met sales targets for various insurance products.",
+				project_title: "Promotional page ",
+				project_name: "“Polar Ice Cream”",
+				link: "https://sl101.github.io/Ice-Cream/",
 			},
 			{
 				id: 4,
-				text: "I developed and executed marketing strategies to increase brand awareness and drive sales growth.",
+				project_title: "Corporate site prototype ",
+				project_name: "“Mountain Adventures”",
+				link: "https://sl101.github.io/Ascents-site/",
 			},
 		],
+	},
+	//{
+	//	id: 3,
+	//	jobTitle:
+	//		"Vienna Insurance Group (Ukrainian Insurance Group), Kiev Ukraine",
+	//	date: "September 2008 - October 2019",
+	//	position: "Project manager",
+	//	icon: "https://www.usg.ua/_next/static/media/logo_main.5d648417.svg",
+	//	iconBg: "#D1F5D9",
+	//	projects: [
+	//		{
+	//			id: 1,
+	//			text: "I developed a personal web application for an insurance agent. I used HTML/CSS for writing. The goal was to attract new customers to sell the company's insurance products.",
+	//		},
+	//		{
+	//			id: 2,
+	//			text: "In order to promote, I developed a proposal for the implementation of a mobile application that represents the services and products of the company.",
+	//		},
+	//		{
+	//			id: 3,
+	//			text: "I led a team of sales representatives and successfully met sales targets for various insurance products.",
+	//		},
+	//		{
+	//			id: 4,
+	//			text: "I developed and executed marketing strategies to increase brand awareness and drive sales growth.",
+	//		},
+	//	],
+	//},
+	{
+		id: 4,
+		title: "Vienna Insurance Group (Ukrainian Insurance Group), Kyiv, Ukraine",
+		date: "September 2008 - October 2019",
+		position: "Project Manager / Head of Sales Department",
+		icon: "https://www.usg.ua/_next/static/media/logo_main.5d648417.svg",
+		iconBg: "#D1F5D9",
+		description: "While working for an insurance company, I became interested in the idea of developing an application to promote the company's brand and increase sales. I was inspired by this idea and developed an application concept and presentation. It was then that I became interested in development and later decided to create my own website for an insurance agent offering insurance services. This passion led me to study the basics of programming and became my hobby for a long time.",
 	},
 ];
 
