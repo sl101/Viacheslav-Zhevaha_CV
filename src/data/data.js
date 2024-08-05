@@ -327,136 +327,105 @@ export const projects_en = [
 export const experiences_de = [
 	{
 		id: 1,
-		jobTitle: "Medcol FZCO",
-		date: "Oktober 2023 – Dezember 2023",
-		position: "Frontend entwickler",
-		icon: medcol,
-		iconBg: "#cddce6",
+		title: "Freelance",
+		date: "2022 – Jetzt",
+		position: "Frontend Entwickler",
+		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
+		iconBg: "#d5efa1",
+		description: "Dank meiner Fähigkeiten konnte ich professionell in die Entwicklung von Webanwendungen einsteigen. Seitdem lerne ich ständig neue Frameworks und Bibliotheken in Front-End-Technologien kennen, arbeite weltweit als Freelancer und widme mich voll und ganz der Programmierung, die nicht nur zu meinem Hobby, sondern auch zu einem spannenden Beruf und Lebensstil geworden ist. Ich habe Erfahrung in der Entwicklung von Anwendungen mit vollem Zyklus von Grund auf, sowie umfangreiche Erfahrung in der Arbeit in Entwicklerteams mit unterschiedlichen Spezialisierungen. Dies hat mir große Befriedigung verschafft und mir die Notwendigkeit vor Augen geführt, mich in einem Team von Gleichgesinnten beruflich weiterzuentwickeln.",
+		prescription: "Einige meiner Arbeiten und Projekte aus dieser Zeit finden Sie in meinem ",
 		projects: [
 			{
 				id: 1,
-				projectTitle: "Praktikum remote, Dubai, VAE",
-				link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
-				text: "Ich war für die Frontend-Entwicklung des Medical Atlas-Projekts verantwortlich und habe ein robustes Interface mit HTML, CSS, JavaScript, TypeScript, REACT, Redux-Toolkit und Fabric.js erstellt. Ich verwaltete den Status mit Redux, integriertem Java Server, PostgresQl und führte Analysen, Optimierungen, Tests und Debugging durch, um eine reibungslose Zusammenarbeit zu gewährleisten.",
+				project_title: "Online-Shop für Bauwerkzeuge und -geräte ",
+				project_name: "“Inst room”",
+				link: "https://sergeysev.github.io/Online_Store/"
 			},
+			{
+				id: 2,
+				project_title: "Online-Shop-Kosmetik für Männer ",
+				project_name: "“BarberShop”",
+				link: "https://sl101.github.io/BarberShop/app/index.html"
+			},
+			{
+				id: 3,
+				project_title: "Portal für Buchhaltungsdienste ",
+				project_name: "“Buchhaltungswelt”",
+				link: "https://buhsvit.com.ua/",
+			},
+			{
+				id: 4,
+				project_title: "Firmenwebsite ",
+				project_name: "“In Denmark Heiraten”",
+				link: "https://daenemark-heiraten.com/en"
+			}
 		],
 	},
 	{
 		id: 2,
-		jobTitle: "Freiberuflich",
-		date: "Januar 2021 - September 2023",
-		position: "JavaScript developer",
-		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
-		iconBg: "#D3E8F8",
-		projects: [
-			{
-				id: 1,
-				projectTitle: "Online-Shop für Bauwerkzeuge und -geräte",
-				link: "https://sergeysev.github.io/Online_Store/",
-				text: "Voll ausgestattete Client-Server-Anwendung mit Python-Backend, MongoDB-Datenbank in Docker. Ich war am Design und der Entwicklung eines umfangreichen Frontends unter Verwendung von REACT, Redux-Toolkit und anderen verwandten Technologien beteiligt, einschließlich End-to-End-Kundenauthentifizierung und -autorisierung.",
-			},
-			{
-				id: 2,
-				projectTitle: "Online-Shop-Kosmetik für Männer.",
-				link: "https://sl101.github.io/BarberShop/app/index.html",
-				text: "Zugängliche, reaktionsfähige Anwendung mit verschiedenen adaptiven Layout-Technologien, Flex- und Grid-Layouts, CSS-Animationen und Schiebereglern. Es wird Vanila-Javascript verwendet.",
-			},
-			{
-				id: 7,
-				projectTitle: "E-commerce App",
-				link: "https://sl101.github.io/FoxMinded_HTML-CSS/task_8/",
-				text: "Für diese Aufgabe entwickelte ich einen E-Commerce-Prototypen mit HTML, CSS und JS. Ich implementierte responsives Design und Funktionalität, einschließlich interaktiver Elemente, dynamischer Inhaltsaktualisierung und einer benutzerfreundlichen Oberfläche.",
-			},
-			{
-				id: 3,
-				projectTitle: "Persönliche Website eines professionellen Fotografen.",
-				link: "https://sl101.github.io/Photographer-site/",
-				text: "Entwickelte eine Landingpage für einen professionellen Fotografen mit HTML, CSS und JavaScript. Integriertes responsives Design, hochauflösende Bildergalerie und ein Feedback-Formular für den Kundenkomfort.",
-			},
-			{
-				id: 4,
-				projectTitle: "Bergabenteuer.",
-				link: "https://sl101.github.io/Ascents-site/",
-				text: "Bei der Entwicklung des Landingpage-Prototyps „Mountain Adventures“ habe ich Wert auf ein ansprechendes Design, eine reibungslose Navigation und interaktive Elemente gelegt. Mithilfe von HTML, CSS und JavaScript habe ich eine responsive Benutzeroberfläche erstellt, visuelle Elemente integriert, die die Schönheit der Bergregionen hervorheben, und eine benutzerfreundliche Interaktion mit den vorgeschlagenen Touristenrouten sichergestellt.",
-			},
-			{
-				id: 8,
-				projectTitle: "Portal für Buchhaltungsdienstleistungen",
-				link: "https://buhsvit.com.ua/pro-nas/",
-				text: "Entwickelte das Frontend für ein Buchhaltungsdienstleistungsportal, einschließlich eines intuitiven Website-Headers, verbesserter Navigation und adaptivem Design für optimale Interaktion auf verschiedenen Geräten.",
-			},
-			{
-				id: 5,
-				projectTitle: "Handgefertigte Masken.",
-				link: "https://sl101.github.io/Mascs-site/",
-				text: "Entwicklung eines Prototyps für eine adaptive Seite unter Verwendung flexibler Rasterlayouts, CSS-Animationen und Schieberegler, um eine interaktive und stilvolle Benutzeroberfläche bereitzustellen. Für optimale Leistung wurde Vanilla-JavaScript implementiert.",
-			},
-			{
-				id: 6,
-				projectTitle: 'Eiscreme "Polar".',
-				link: "https://sl101.github.io/Ice-Cream/",
-				text: "Entwicklung eines Landingpage-Prototyps für den Eisverkauf. Mithilfe flexibler Rasterlayouts und CSS-Animationen wird eine attraktive und interaktive Benutzeroberfläche erstellt. Implementierung von Vanilla-JavaScript für optimale Leistung. Das Design folgt professionellen Standards und sorgt für ein herausragendes Benutzererlebnis, indem es die Einzigartigkeit jeder Eissorte hervorhebt.",
-			},
-			{
-				id: 9,
-				projectTitle: "Menü für Restaurant",
-				link: "https://sl101.github.io/FoxMinded_JavaScript/task_2/",
-				text: "Die Entwicklung der Menüseite des Online-Restaurantshops umfasste die Erstellung einer intuitiven und stilvollen Benutzeroberfläche mit flexiblen Rasterlayouts und CSS-Animationen. Die Implementierung von Vanilla JavaScript sorgte für dynamische Inhaltsaktualisierungen. Die optimierte Interaktion mit der Datenbank garantiert ein schnelles Laden der Menüs. Das Design passt sich dem Unternehmensstil an, unterstreicht die Qualität der Gerichte und bietet den Besuchern ein komfortables Bestellerlebnis.",
-			},
-			{
-				id: 10,
-				projectTitle: "Beispiel für einen Online-Shop",
-				link: "https://sl101.github.io/FoxMinded_JavaScript/task_8/",
-				text: "Beitrag zur Entwicklung eines Warenkorbs für ein Online-Möbelgeschäft, Erstellung einer intuitiven Benutzeroberfläche mit flexiblen Rasterlayouts und CSS-Animationen. Implementierte Funktionen zum Hinzufügen, Entfernen und Ändern der Menge von Artikeln im Warenkorb mithilfe von JavaScript, um den Benutzerkomfort zu gewährleisten und die Konvertierung zu verbessern. Das Design des Einkaufswagens passt sich dem Stil des Ladens an und betont die Funktionalität und Ästhetik der Möbel.",
-			},
-		],
+		title: "Medcol FZCO",
+		date: "Oktober 2023 – Dezember 2023",
+		position: "Frontend Entwickler",
+		icon: medcol,
+		iconBg: "#cddce6",
+		project_title: "Praktikum remote, Dubai, VAE",
+		link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
+		description: "Um internationale Geschäftserfahrung zu sammeln, nutzte ich die Gelegenheit, ein Praktikum bei einem Startup zu absolvieren, wo ich an der Entwicklung eines Prototyps einer interaktiven medizinischen Webanwendung beteiligt war. Ich arbeitete am Frontend des Medical Atlas Projekts und erstellte das Frontend mit HTML, CSS, JavaScript, TypeScript, React, Redux Toolkit und Fabric.js. Ich verwaltete den Status mit Redux, integrierte die REST API für die Interaktion mit dem Backend und war aktiv an der Datenanalyse, Geschwindigkeitsoptimierung, dem Testen und Debuggen der Anwendung beteiligt."
 	},
 	{
 		id: 3,
-		jobTitle:
+		title: "Freelance",
+		date: "September 2019 - 2021",
+		position: "Web-Entwickler",
+		icon: "https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/code-90.png",
+		iconBg: "#a1efec",
+		description: "Meine Leidenschaft hat mich dazu gebracht, mich mit verschiedenen Entwicklungswerkzeugen vertraut zu machen. In verschiedenen Kursen und im Selbststudium habe ich mich in verschiedenen Bereichen der Programmierung weitergebildet und den Programmierprozess als Hobby genossen. Von Zeit zu Zeit half ich Freunden und Bekannten bei der Entwicklung ihrer persönlichen Websites und erledigte kleinere Aufträge als Freelancer. Ich erstellte barrierefreie, reaktionsfähige Anwendungen mit adaptiven Layouts, Flex- und Grid-Layouts, CSS-Animationen und Schiebereglern unter Verwendung von Vanilla JavaScript. Ich entwickelte einen E-Commerce-Prototyp und implementierte reaktionsfähiges Design und Funktionalität, einschließlich interaktiver Elemente, dynamischer Inhaltsaktualisierung und einer benutzerfreundlichen Oberfläche.",
+		prescription: "Beispiele einiger meiner Arbeiten finden Sie in meinem ",
+		projects: [
+			{
+				id: 1,
+				project_title: "Landingpage für professionelle Fotografen ",
+				project_name: "“Kovalyova Mary”",
+				link: "https://sl101.github.io/Photographer-site/"
+			},
+			{
+				id: 2,
+				project_title: "Verkaufsseite für handgefertigte Masken ",
+				project_name: "“Masken”",
+				link: "https://sl101.github.io/Mascs-site/"
+			},
+			{
+				id: 3,
+				project_title: "Werbeseite ",
+				project_name: "“Polar Eiscreme”",
+				link: "https://sl101.github.io/Ice-Cream/"
+			},
+			{
+				id: 4,
+				project_title: "Prototyp einer Unternehmens-Site ",
+				project_name: "“Abenteuer in den Bergen”",
+				link: "https://sl101.github.io/Ascents-site/"
+			}
+		]
+	},
+	{
+		id: 4,
+		title:
 			"Vienna Insurance Group (Ukrainische Versicherungsgruppe), Kiew, Ukraine",
 		date: "September 2008 – Oktober 2019",
 		position: "Projektmanager",
 		icon: "https://www.usg.ua/_next/static/media/logo_main.5d648417.svg",
 		iconBg: "#D1F5D9",
-		projects: [
-			{
-				id: 1,
-				text: "Ich habe eine persönliche Webanwendung für einen Versicherungsvertreter entwickelt. Zum Schreiben habe ich HTML/CSS verwendet. Ziel war es, neue Kunden zu gewinnen und die Versicherungsprodukte des Unternehmens zu verkaufen.",
-			},
-			{
-				id: 2,
-				text: "Im Rahmen meiner Diplomarbeit entwickelte ich einen Vorschlag für die Implementierung einer mobilen Anwendung, die die Dienstleistungen und Produkte des Unternehmens darstellt.",
-			},
-			{
-				id: 3,
-				text: "Ich leitete ein Team von Vertriebsmitarbeitern und setzte erfolgreich Verkaufspläne für verschiedene Versicherungsprodukte um.",
-			},
-			{
-				id: 4,
-				text: "Ich habe Marketingstrategien entwickelt und umgesetzt, um die Markenbekanntheit und das Umsatzwachstum meiner Abteilung zu steigern.",
-			},
-		],
+		description: "Während meiner Arbeit für ein Versicherungsunternehmen interessierte ich mich für die Idee, eine App zu entwickeln, um die Marke des Unternehmens zu fördern und den Umsatz zu steigern. Ich ließ mich von dieser Idee inspirieren und entwickelte ein Anwendungskonzept und eine Präsentation. Zu diesem Zeitpunkt begann ich mich für die Entwicklung zu interessieren und entschied mich später, eine Website für einen Versicherungsvertreter zu entwickeln, der Versicherungsdienstleistungen anbietet. Diese Leidenschaft brachte mich dazu, die Grundlagen der Programmierung zu lernen, und wurde für lange Zeit zu meinem Hobby.",
 	},
 ];
 
 export const experiences_en = [
 	{
 		id: 1,
-		title: "Medcol FZCO",
-		date: "October 2023 - Deсember 2023",
-		position: "Frontend developer",
-		icon: medcol,
-		iconBg: "#cddce6",
-		project_title: "internship remote, Dubai, UAE",
-		link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
-		description: "In order to gain international business experience, I took the opportunity to intern at a startup, where I was involved in the development of a prototype of an interactive medical web application. I worked on the front-end part of the Medical Atlas project, building the front-end using HTML, CSS, JavaScript, TypeScript, React, Redux toolkit and Fabric.js. I managed the state using Redux, integrated the REST API to interact with the backend, and actively participated in data analysis, speed optimisation, testing and debugging the application.",
-	},
-	{
-		id: 2,
 		title: "Freelance",
 		date: "2022 - Present",
-		position: "JavaScript developer",
+		position: "Frontend developer",
 		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
 		iconBg: "#d5efa1",
 		description: "My skills allowed me to start developing web applications professionally. Since then, I have continued to learn new frameworks and libraries in front-end technologies, working as a freelancer worldwide and fully immersing myself in programming, which has become not only my hobby, but also an engaging job and a way of life. I have gained experience in developing full-cycle applications from scratch, as well as significant experience in working in teams of developers with different specialisations. This has given me great satisfaction and led me to realise the need for further professional growth in a team of like-minded individuals.",
@@ -466,28 +435,38 @@ export const experiences_en = [
 				id: 1,
 				project_title: "Online store selling construction tools and equipment ",
 				project_name: "“Inst room”",
-				link: "https://sergeysev.github.io/Online_Store/",
-
+				link: "https://sergeysev.github.io/Online_Store/"
 			},
 			{
 				id: 2,
 				project_title: "Men's cosmetics online store ",
 				project_name: "“BarberShop”",
-				link: "https://sl101.github.io/BarberShop/app/index.html",
+				link: "https://sl101.github.io/BarberShop/app/index.html"
 			},
 			{
 				id: 3,
 				project_title: "Accounting services portal ",
 				project_name: "“Accounting World”",
-				link: "https://buhsvit.com.ua/",
+				link: "https://buhsvit.com.ua/"
 			},
 			{
 				id: 4,
 				project_title: "Corporate website ",
 				project_name: "“In Denmark Heiraten”",
-				link: "https://daenemark-heiraten.com/en",
-			},
+				link: "https://daenemark-heiraten.com/en"
+			}
 		],
+	},
+	{
+		id: 2,
+		title: "Medcol FZCO",
+		date: "October 2023 - Deсember 2023",
+		position: "JavaScript developer",
+		icon: medcol,
+		iconBg: "#cddce6",
+		project_title: "internship remote, Dubai, UAE",
+		link: "https://drive.google.com/file/d/1aUscF7kNJrqIIsOZxozXRS7iFtlhMIZD/view?usp=sharing",
+		description: "In order to gain international business experience, I took the opportunity to intern at a startup, where I was involved in the development of a prototype of an interactive medical web application. I worked on the front-end part of the Medical Atlas project, building the front-end using HTML, CSS, JavaScript, TypeScript, React, Redux toolkit and Fabric.js. I managed the state using Redux, integrated the REST API to interact with the backend, and actively participated in data analysis, speed optimisation, testing and debugging the application."
 	},
 	{
 		id: 3,
@@ -503,56 +482,28 @@ export const experiences_en = [
 				id: 1,
 				project_title: "Landing page for professional photographer ",
 				project_name: "“Kovalyova Mary”",
-				link: "https://sl101.github.io/Photographer-site/",
-
+				link: "https://sl101.github.io/Photographer-site/"
 			},
 			{
 				id: 2,
 				project_title: "Handmade masks sales page ",
 				project_name: "“Masks”",
-				link: "https://sl101.github.io/Mascs-site/",
+				link: "https://sl101.github.io/Mascs-site/"
 			},
 			{
 				id: 3,
 				project_title: "Promotional page ",
 				project_name: "“Polar Ice Cream”",
-				link: "https://sl101.github.io/Ice-Cream/",
+				link: "https://sl101.github.io/Ice-Cream/"
 			},
 			{
 				id: 4,
 				project_title: "Corporate site prototype ",
 				project_name: "“Mountain Adventures”",
-				link: "https://sl101.github.io/Ascents-site/",
-			},
-		],
+				link: "https://sl101.github.io/Ascents-site/"
+			}
+		]
 	},
-	//{
-	//	id: 3,
-	//	jobTitle:
-	//		"Vienna Insurance Group (Ukrainian Insurance Group), Kiev Ukraine",
-	//	date: "September 2008 - October 2019",
-	//	position: "Project manager",
-	//	icon: "https://www.usg.ua/_next/static/media/logo_main.5d648417.svg",
-	//	iconBg: "#D1F5D9",
-	//	projects: [
-	//		{
-	//			id: 1,
-	//			text: "I developed a personal web application for an insurance agent. I used HTML/CSS for writing. The goal was to attract new customers to sell the company's insurance products.",
-	//		},
-	//		{
-	//			id: 2,
-	//			text: "In order to promote, I developed a proposal for the implementation of a mobile application that represents the services and products of the company.",
-	//		},
-	//		{
-	//			id: 3,
-	//			text: "I led a team of sales representatives and successfully met sales targets for various insurance products.",
-	//		},
-	//		{
-	//			id: 4,
-	//			text: "I developed and executed marketing strategies to increase brand awareness and drive sales growth.",
-	//		},
-	//	],
-	//},
 	{
 		id: 4,
 		title: "Vienna Insurance Group (Ukrainian Insurance Group), Kyiv, Ukraine",
