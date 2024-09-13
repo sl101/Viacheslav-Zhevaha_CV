@@ -149,7 +149,7 @@ export const links_de = [
 		text: "Sprache",
 		content: [
 			{ "Englisch - ": "B2" },
-			{ "Deutsch - ": "B1" },
+			{ "Deutsch - ": "B2" },
 			{ "Ukrainisch - ": "C2" },
 			{ "Russisch - ": "C2" },
 		],
@@ -187,7 +187,7 @@ export const links_en = [
 		text: "Languages",
 		content: [
 			{ "English - ": "B2" },
-			{ "German - ": "B1" },
+			{ "German - ": "B2" },
 			{ "Ukrainian - ": "C2" },
 			{ "Russian - ": "C2" },
 		],
@@ -337,24 +337,30 @@ export const experiences_de = [
 		projects: [
 			{
 				id: 1,
+				project_title: "Diplomprojekt Online-Gartengeschäft ",
+				project_name: "“Gartenladen”",
+				link: "https://sl101.github.io/TEL-Ran-Diploma-project"
+			},
+			{
+				id: 2,
 				project_title: "Online-Shop für Bauwerkzeuge und -geräte ",
 				project_name: "“Inst room”",
 				link: "https://sergeysev.github.io/Online_Store/"
 			},
 			{
-				id: 2,
+				id: 3,
 				project_title: "Online-Shop-Kosmetik für Männer ",
 				project_name: "“BarberShop”",
 				link: "https://sl101.github.io/BarberShop/app/index.html"
 			},
 			{
-				id: 3,
+				id: 4,
 				project_title: "Portal für Buchhaltungsdienste ",
 				project_name: "“Buchhaltungswelt”",
 				link: "https://buhsvit.com.ua/",
 			},
 			{
-				id: 4,
+				id: 5,
 				project_title: "Firmenwebsite ",
 				project_name: "“In Denmark Heiraten”",
 				link: "https://daenemark-heiraten.com/en"
@@ -433,24 +439,30 @@ export const experiences_en = [
 		projects: [
 			{
 				id: 1,
+				project_title: "Diploma project online store of goods for garden ",
+				project_name: "“Garden shop”",
+				link: "https://sl101.github.io/TEL-Ran-Diploma-project"
+			},
+			{
+				id: 2,
 				project_title: "Online store selling construction tools and equipment ",
 				project_name: "“Inst room”",
 				link: "https://sergeysev.github.io/Online_Store/"
 			},
 			{
-				id: 2,
+				id: 3,
 				project_title: "Men's cosmetics online store ",
 				project_name: "“BarberShop”",
 				link: "https://sl101.github.io/BarberShop/app/index.html"
 			},
 			{
-				id: 3,
+				id: 4,
 				project_title: "Accounting services portal ",
 				project_name: "“Accounting World”",
 				link: "https://buhsvit.com.ua/"
 			},
 			{
-				id: 4,
+				id: 5,
 				project_title: "Corporate website ",
 				project_name: "“In Denmark Heiraten”",
 				link: "https://daenemark-heiraten.com/en"
