@@ -149,9 +149,9 @@ export const links_de = [
 		text: "Sprache",
 		content: [
 			{ "Englisch - ": "B2" },
-			{ "Deutsch - ": "B2" },
-			{ "Ukrainisch - ": "C2" },
-			{ "Russisch - ": "C2" },
+			{ "Deutsch - ": "B1" },
+			{ "Ukrainisch - ": "Einheimisch" },
+			{ "Russisch - ": "Einheimisch" },
 		],
 	},
 ];
@@ -187,9 +187,9 @@ export const links_en = [
 		text: "Languages",
 		content: [
 			{ "English - ": "B2" },
-			{ "German - ": "B2" },
-			{ "Ukrainian - ": "C2" },
-			{ "Russian - ": "C2" },
+			{ "German - ": "B1" },
+			{ "Ukrainian - ": "Native" },
+			{ "Russian - ": "Native" },
 		],
 	},
 ];
@@ -327,8 +327,8 @@ export const projects_en = [
 export const experiences_de = [
 	{
 		id: 1,
-		title: "Freelance",
-		date: "2022 – Jetzt",
+		title: "Unabhängiger Webentwickler",
+		date: "Dezember 2023 – Jetzt",
 		position: "Frontend Entwickler",
 		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
 		iconBg: "#d5efa1",
@@ -380,9 +380,9 @@ export const experiences_de = [
 	},
 	{
 		id: 3,
-		title: "Freelance",
-		date: "September 2019 - 2021",
-		position: "Web-Entwickler",
+		title: "Studium der Webentwicklung und Softwaretechnik",
+		date: "November 2019 – Oktober 2023",
+		position: "Berufliche Umschulung",
 		icon: "https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/code-90.png",
 		iconBg: "#a1efec",
 		description: "Meine Leidenschaft hat mich dazu gebracht, mich mit verschiedenen Entwicklungswerkzeugen vertraut zu machen. In verschiedenen Kursen und im Selbststudium habe ich mich in verschiedenen Bereichen der Programmierung weitergebildet und den Programmierprozess als Hobby genossen. Von Zeit zu Zeit half ich Freunden und Bekannten bei der Entwicklung ihrer persönlichen Websites und erledigte kleinere Aufträge als Freelancer. Ich erstellte barrierefreie, reaktionsfähige Anwendungen mit adaptiven Layouts, Flex- und Grid-Layouts, CSS-Animationen und Schiebereglern unter Verwendung von Vanilla JavaScript. Ich entwickelte einen E-Commerce-Prototyp und implementierte reaktionsfähiges Design und Funktionalität, einschließlich interaktiver Elemente, dynamischer Inhaltsaktualisierung und einer benutzerfreundlichen Oberfläche.",
@@ -429,8 +429,8 @@ export const experiences_de = [
 export const experiences_en = [
 	{
 		id: 1,
-		title: "Freelance",
-		date: "2022 - Present",
+		title: "Independent web developer",
+		date: "December 2023 - Present",
 		position: "Frontend developer",
 		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
 		iconBg: "#d5efa1",
@@ -482,12 +482,13 @@ export const experiences_en = [
 	},
 	{
 		id: 3,
-		title: "Freelance",
-		date: "September 2019 - 2021",
-		position: "Web Developer",
+		title: "Studying Web Development and Software Engineering",
+		date: "November 2019 - October 2023",
+		position: "Professional retraining",
 		icon: "https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/code-90.png",
 		iconBg: "#a1efec",
-		description: "My passion led me to master various tools used in development. I continued to study through various courses and self-learning in different areas of programming, enjoying the coding process as a hobby. Periodically, I helped friends and acquaintances develop personal websites and completed small freelance jobs. I created accessible, responsive applications using adaptive layouts, flex and grid layouts, CSS animations and sliders, using vanilla JavaScript. Developed an e-commerce prototype, implementing responsive design and functionality, including interactive elements, dynamic content updates and a user-friendly interface.",
+		description: "During this time, I was engaged in self-learning software development, focusing on web development. I gained proficiency in technologies such as HTML, CSS, JavaScript, as well as the basics of working with frameworks (e.g., React, Node.js). I participated in projects, which helped me develop skills in creating and maintaining web applications.",
+		//description: "My passion led me to master various tools used in development. I continued to study through various courses and self-learning in different areas of programming, enjoying the coding process as a hobby. Periodically, I helped friends and acquaintances develop personal websites and completed small freelance jobs. I created accessible, responsive applications using adaptive layouts, flex and grid layouts, CSS animations and sliders, using vanilla JavaScript. Developed an e-commerce prototype, implementing responsive design and functionality, including interactive elements, dynamic content updates and a user-friendly interface.",
 		prescription: "Examples of some of my work can be seen in my ",
 		projects: [
 			{
