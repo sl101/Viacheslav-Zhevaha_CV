@@ -4,7 +4,6 @@
 
 .experiences__list {
 	margin-top: 24px;
-	padding-left: 10px;
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
@@ -31,7 +30,6 @@
 .experience__date {
 	white-space: nowrap;
 	text-transform: capitalize;
-	/*font-size: 16px;*/
 	font-style: italic;
 	margin-left: auto;
 }
@@ -78,8 +76,6 @@
 
 .experience_description {
 	margin-top: 10px;
-	/*font-size: 16px;*/
-	text-indent: 25px;
 	color: var(--dark-color);
 }
 

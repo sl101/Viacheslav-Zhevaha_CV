@@ -1,6 +1,4 @@
 .profile_description p {
-	padding-left: 10px;
 	margin-top: 16px;
-	text-indent: 25px;
 	color: var(--black-color);
 }
