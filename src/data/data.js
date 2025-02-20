@@ -1,4 +1,5 @@
 import medcol from "./assets/medcol.svg";
+import trood from "./assets/trood.jpg"
 
 export const contacts_de = [
 	{
@@ -326,9 +327,20 @@ export const projects_en = [
 
 export const experiences_de = [
 	{
-		id: 1,
+		id: 4,
+		title: "Trood",
+		date: "November 2024 – Jetzt",
+		position: "Frontend-Entwickler",
+		icon: trood,
+		iconBg: "#fff",
+		project_title: "New York, USA, telearbeit",
+		link: "https://www.linkedin.com/company/troodinc/",
+		description: "Entwicklung von Schnittstellen für ein soziales Netzwerk mit Vue 3, TypeScript, Pinia und Tailwind. Arbeiten mit dynamischen Entitäten, Integration mit Firebase und Implementierung von Backend-Triggern. Teilnahme an Architekturdiskussionen, Anforderungsanalysen und Aufgabenzerlegungen. Arbeiten in einem agilen Team mit Aufgabenverwaltung in ClickUp."
+	},
+	{
+		id: 3,
 		title: "Unabhängiger Webentwickler",
-		date: "Dezember 2023 – Jetzt",
+		date: "Dezember 2023 – November 2024",
 		position: "Frontend Entwickler",
 		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
 		iconBg: "#d5efa1",
@@ -379,13 +391,13 @@ export const experiences_de = [
 		description: "Um internationale Geschäftserfahrung zu sammeln, nutzte ich die Gelegenheit, ein Praktikum bei einem Startup zu absolvieren, wo ich an der Entwicklung eines Prototyps einer interaktiven medizinischen Webanwendung beteiligt war. Ich arbeitete am Frontend des Medical Atlas Projekts und erstellte das Frontend mit HTML, CSS, JavaScript, TypeScript, React, Redux Toolkit und Fabric.js. Ich verwaltete den Status mit Redux, integrierte die REST API für die Interaktion mit dem Backend und war aktiv an der Datenanalyse, Geschwindigkeitsoptimierung, dem Testen und Debuggen der Anwendung beteiligt."
 	},
 	{
-		id: 3,
-		title: "Studium der Webentwicklung und Softwaretechnik",
+		id: 1,
+		title: "Studium der Webentwicklung und Softwaretechnik (teilzeit)",
 		date: "November 2019 – Oktober 2023",
 		position: "Berufliche Umschulung",
 		icon: "https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/code-90.png",
 		iconBg: "#a1efec",
-		description: "Meine Leidenschaft hat mich dazu gebracht, mich mit verschiedenen Entwicklungswerkzeugen vertraut zu machen. In verschiedenen Kursen und im Selbststudium habe ich mich in verschiedenen Bereichen der Programmierung weitergebildet und den Programmierprozess als Hobby genossen. Von Zeit zu Zeit half ich Freunden und Bekannten bei der Entwicklung ihrer persönlichen Websites und erledigte kleinere Aufträge als Freelancer. Ich erstellte barrierefreie, reaktionsfähige Anwendungen mit adaptiven Layouts, Flex- und Grid-Layouts, CSS-Animationen und Schiebereglern unter Verwendung von Vanilla JavaScript. Ich entwickelte einen E-Commerce-Prototyp und implementierte reaktionsfähiges Design und Funktionalität, einschließlich interaktiver Elemente, dynamischer Inhaltsaktualisierung und einer benutzerfreundlichen Oberfläche.",
+		description: "Während dieser Zeit konzentrierte ich mich darauf, Webentwicklung und Software Engineering unabhängig und auf freiberuflicher Basis zu studieren, getrennt von meiner hauptberuflichen Tätigkeit in einem anderen Bereich. Ich entwickelte Fertigkeiten in HTML, CSS, JavaScript und grundlegenden Frameworks wie React und Node.js. Meine Teilnahme an verschiedenen Projekten half mir, meine Fähigkeiten im Aufbau und der Wartung von Webanwendungen zu verfeinern.",
 		prescription: "Beispiele einiger meiner Arbeiten finden Sie in meinem ",
 		projects: [
 			{
@@ -415,7 +427,7 @@ export const experiences_de = [
 		]
 	},
 	{
-		id: 4,
+		id: 0,
 		title:
 			"Vienna Insurance Group (Ukrainische Versicherungsgruppe), Kiew, Ukraine",
 		date: "September 2008 – Oktober 2019",
@@ -428,9 +440,20 @@ export const experiences_de = [
 
 export const experiences_en = [
 	{
-		id: 1,
+		id: 4,
+		title: "Trood",
+		date: "November 2024 - Present",
+		position: "Frontend Developer",
+		icon: trood,
+		iconBg: "#fff",
+		project_title: "New York, USA, remote",
+		link: "https://www.linkedin.com/company/troodinc/",
+		description: "Development of interfaces for a social network using Vue 3, TypeScript, Pinia, and Tailwind. Working with dynamic entities, integrating with Firebase, and implementing backend triggers. Participation in architecture discussions, requirement analysis, and task decomposition. Working in an Agile team with task management in ClickUp."
+	},
+	{
+		id: 3,
 		title: "Independent web developer",
-		date: "December 2023 - Present",
+		date: "December 2023 - November 2024",
 		position: "Frontend developer",
 		icon: "https://cdn-icons-png.flaticon.com/512/6061/6061141.png",
 		iconBg: "#d5efa1",
@@ -481,14 +504,13 @@ export const experiences_en = [
 		description: "In order to gain international business experience, I took the opportunity to intern at a startup, where I was involved in the development of a prototype of an interactive medical web application. I worked on the front-end part of the Medical Atlas project, building the front-end using HTML, CSS, JavaScript, TypeScript, React, Redux toolkit and Fabric.js. I managed the state using Redux, integrated the REST API to interact with the backend, and actively participated in data analysis, speed optimisation, testing and debugging the application."
 	},
 	{
-		id: 3,
-		title: "Studying Web Development and Software Engineering",
+		id: 1,
+		title: "Studying Web Development and Software Engineering (part-time)",
 		date: "November 2019 - October 2023",
 		position: "Professional retraining",
 		icon: "https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/code-90.png",
 		iconBg: "#a1efec",
-		description: "During this time, I was engaged in self-learning software development, focusing on web development. I gained proficiency in technologies such as HTML, CSS, JavaScript, as well as the basics of working with frameworks (e.g., React, Node.js). I participated in projects, which helped me develop skills in creating and maintaining web applications.",
-		//description: "My passion led me to master various tools used in development. I continued to study through various courses and self-learning in different areas of programming, enjoying the coding process as a hobby. Periodically, I helped friends and acquaintances develop personal websites and completed small freelance jobs. I created accessible, responsive applications using adaptive layouts, flex and grid layouts, CSS animations and sliders, using vanilla JavaScript. Developed an e-commerce prototype, implementing responsive design and functionality, including interactive elements, dynamic content updates and a user-friendly interface.",
+		description: "During this period, I focused on studying web development and software engineering independently and on a freelance basis, separate from my primary professional work in a different field. I developed proficiency in HTML, CSS, JavaScript, and foundational frameworks such as React and Node.js. My participation in various projects helped me hone my skills in building and maintaining web applications.",
 		prescription: "Examples of some of my work can be seen in my ",
 		projects: [
 			{
@@ -518,7 +540,7 @@ export const experiences_en = [
 		]
 	},
 	{
-		id: 4,
+		id: 0,
 		title: "Vienna Insurance Group (Ukrainian Insurance Group), Kyiv, Ukraine",
 		date: "September 2008 - October 2019",
 		position: "Project Manager / Head of Sales Department",
